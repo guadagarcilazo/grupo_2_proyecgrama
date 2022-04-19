@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+body{
+  /*   background-color: aqua; */
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#nav{
+    background-color: #eee;
+    height: 65px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 2;
+    
+}
+
+.caja-botonesylogo{
+    display: flex;
+    flex-direction: row;
+ /*    background-color: brown; */
+    height: 55px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+
+}
+
+#caja-botones-izq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*     background-color: blue; */
+    height: 55px;
+    width: 40%;
+    
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*     background-color: chartreuse; */
+    height: 55px;
+    width: 20%;
+}
+
+#caja-botones-der{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ /*    background-color: rgb(255, 255, 0); */
+    height: 55px;
+    width: 40%;
+}
+
+/* Botones del nav */
+
+#devjump{
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#nosotros{
+    text-decoration: none;
+    color: black;
+}
+
+#lenguaje{
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#anotate{
+    text-decoration: none;
+    color: black;
+}
+
+#nav a:hover{
+
+    color: #aa0ace;
+}
