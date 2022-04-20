@@ -1,7 +1,9 @@
+<img src="logo.png" height='100px'>
+
 # Proyecgrama : Proyecto DevJump
 
-Información completa acerca de la página "Proyecgrama"
---
+## Información acerca de la página "Proyecgrama"
+
 * Maquetado/Wireframe
 * Elección de estructura y secciones
 * Logo
