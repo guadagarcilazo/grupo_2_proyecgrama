@@ -22,17 +22,21 @@
 
 La división de tareas fue sencilla . Todos ibamos a aportar en la eleccion de wireframe, colores, imagenes, etc . Se charlaba con el grupo a estar dispuestos a recibir cualquier idea/sugerencia sobre las tareas de cada uno y siempre buscar que mejorar .
 
--Gonzalo Alvarez :  Armado de wireframe . 
+-Gonzalo Alvarez : Rol como desarrollador - Armado de wireframe . 
 
--Natalí Lescano : Armado de wireframe .
+-Natalí Lescano : Rol como desarrollador - Armado de wireframe .
 
--Guadalupe Garcilazo: Rol de líder - Documentación del día a día . Armado de README . Logo . Nombre de proyecto .
+-Guadalupe Garcilazo: Rol como líder - Documentación del día a día . Armado de README . Logo . Nombre de proyecto .
 
--Lautaro Coria : Lauti ingreso el día 20/04 - Armado de wireframe . 
+-Lautaro Coria: Como nuevo integrante del Equipo 2, asumio su rol como desarrollador - Armado de wireframe .
+
+" Traje un poco de experiencia para compartir e implementar y también adquirí nuevas de este equipo que me recibió de la manera más amena. A pesar del poco tiempo, pudimos reflejar con éxito las nuevas medidas afectar a lo ya establecido y logrando una integridad en forma plena. Como desarrollador asumo el rol de la mejora constante, de la escucha, del compromiso, la ayuda y la confianza en el trabajo de mi equipo . "
 
 ## Metodologías que adoptamos
 
 Adoptamos como metodología el método SCRUM .
+
+Para hacer uso de la metodología Scrum, pusimos a disposición del equipo la herramienta Jira Software. Creamos un proyecto donde establecimos las diferentes tareas de acuerdo a los requerimientos del cliente y organizamos los diferentes Sprints que nos van a guiar en las toma de decisiones con base en las prioridades y tiempos pactados.
 
 
 ## Conclusiones en cada reunión: 12/04 - 21/04
