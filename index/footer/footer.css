@@ -1,46 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+/* Para que salga sin espacios y encaje bien el footer, también sirve para toda la página */
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ /* Los iconos */
+img {
+height: 20px;
+width: 20px;
+margin-right: 40px;
 }
 
-.contenedor {
-    background-color: black;
-    padding: 10px 3px 3px 10px;
+/* Lista del contacto */
+ul li {
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Cajas divivdidas para dar la forma */
+.contenedor1 {
+    background-color: #595959;
     width: 100%;
-    height: 350px;
+    height: 400px;
     display: flex;
-    justify-content: space-between;
-}
-.contacto {
-    background-color: brown;
-    height: 90%;
-    width: 30%;
-  
-}
-.redes {
-    background-color: aqua;
-    height: 75%;
-    width: 40%;
-    
+    color: white;
 }
 
-.mapa {
-    background-color: blueviolet;
-    height: 90%;
+.contenedor2 {
+    /* background-color: aqua; */
     width: 50%;
-}
-.mapa1 {
-    align-items: center;
+    height: 100%;
 }
 
-
-
-a {
-    text-decoration: none;
-    color: black;
+.caja1 {
+ /*    background-color: black; */
+    width: 60%;
+    height: 50%;
+    padding: 40px 0px 0px 20px;
 }
-a:hover {
-    text-decoration: underline;
-    color: #c73189;
+.caja2 {
+    /* background-color: rgb(241, 20, 20); */
+    width: 80%;
+    height: 50%;
+    padding: 60px 50px 0px 70px;
 }
+h3 {
+   margin-bottom: 40px;
+    background: linear-gradient(#776CF9,#68BFAB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+/* Me falta corregir el título */
+.redes {
+    margin-right: 0px;
+}
+
+/* El mapa de la empresa */
+.map {
+    /* background-color: rgb(19, 53, 248); */
+    width: 30%;
+    height: 60%;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+/* si falta algo, me avisan :) */
