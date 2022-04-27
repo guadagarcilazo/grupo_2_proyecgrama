@@ -51,7 +51,7 @@ Para la realización del maquetado el equipo buscó plataformas dedicadas al ár
 
 El equipo optó en usar la primera plataforma para llevar a cabo las ideas en mente. Luego de elegir la plataforma se eligió la paleta de colores que llevaría la página a crear, los cuales fueron inspirados en Arbusta . Como tercer paso, se comenzó el maquetado para el cual se diseñó un Nav y un footer como también se diseñaron distintas secciones que tendrá la página. Por último, se agregaron fotos y se pensó como posicionar los distintos tipos de secciones para que el visitante/usuario tenga una buena experiencia en la página web.
 
-https://www.figma.com/file/6Vz4FdXkiOXlXJduHf1jVP/Untitled?node-id=0%3A1
+[Wireframe](https://www.figma.com/file/6Vz4FdXkiOXlXJduHf1jVP/Untitled?node-id=0%3A1)
 
 ## Inspiraciones // Referentes 
 

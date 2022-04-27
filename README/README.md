@@ -22,7 +22,7 @@
 
 La división de tareas fue sencilla . Todos ibamos a aportar en la eleccion de wireframe, colores, imagenes, etc . Se charlaba con el grupo a estar dispuestos a recibir cualquier idea/sugerencia sobre las tareas de cada uno y siempre buscar que mejorar .
 
--Gonzalo Alvarez : Rol como desarrollador - Armado de wireframe . 
+-Gonzalo Alvarez : Rol como desarrollador - Armado de wireframe . // agregar aca datos mas personales , como como se sientes etc
 
 -Natalí Lescano : Rol como desarrollador - Armado de wireframe .
 
@@ -30,11 +30,11 @@ La división de tareas fue sencilla . Todos ibamos a aportar en la eleccion de w
 
 -Lautaro Coria: Como nuevo integrante del Equipo 2, asumio su rol como desarrollador - Armado de wireframe .
 
-" Traje un poco de experiencia para compartir e implementar y también adquirí nuevas de este equipo que me recibió de la manera más amena. A pesar del poco tiempo, pudimos reflejar con éxito las nuevas medidas afectar a lo ya establecido y logrando una integridad en forma plena. Como desarrollador asumo el rol de la mejora constante, de la escucha, del compromiso, la ayuda y la confianza en el trabajo de mi equipo . "
+" Traje un poco de experiencia para compartir e implementar y también adquirí nuevas de este equipo que me recibió de la manera más amena. A pesar del poco tiempo, pudimos reflejar con éxito las nuevas medidas sin afectar a lo ya establecido y logrando una integridad en forma plena. Como desarrollador asumo el rol de la mejora constante, de la escucha, del compromiso, la ayuda y la confianza en el trabajo de mi equipo . "
 
 ## Metodologías que adoptamos
 
-Adoptamos como metodología el método SCRUM .
+Adoptamos como metodología el método SCRUM .           //link de JIRA
 
 Para hacer uso de la metodología Scrum, pusimos a disposición del equipo la herramienta Jira Software. Creamos un proyecto donde establecimos las diferentes tareas de acuerdo a los requerimientos del cliente y organizamos los diferentes Sprints que nos van a guiar en las toma de decisiones con base en las prioridades y tiempos pactados.
 
@@ -98,7 +98,16 @@ Todo el resto del dia fue terminar el nuevo wireframe que nos gustara y estemos 
 
 ## Toma de decisiones finales 
 
- Actuar con rapidez ante los posibles cambios. Realizar entregas periódicas del trabajo.
+_Jueves 21/04_ : Trabajamos en el refinamiento. Volvimos a las preguntas esenciales como ¿Cuáles eran los requisitos? Y con base en esto pensamos en las secciones de nuestro sitio .
+ 
+A fin de la reunión decidimos dividir tareas para agilizar el proceso teniendo en cuenta el tiempo pactado .
 
-https://www.figma.com/file/6Vz4FdXkiOXlXJduHf1jVP/Untitled?node-id=0%3A1
+Guadalupe: Exclusivamente de la documentación . <br>
+Natali: De la maquetación del formulario de Login y Registro en su tamaño escritorio y responsivo. <br>
+Gonzalo: De la maquetación de la sección de los diferentes lenguajes, con foco en cumplir los requerimientos de: “Clases con párrafos que explique la misma” y “Visualización por lenguaje” . <br>
+Lautaro: De la maquetación de la página de Inicio o Home, asegurándose de ultimar detalles pactados en la Dayli. <br>
+
+[Wireframe elegido](https://www.figma.com/file/6Vz4FdXkiOXlXJduHf1jVP/Untitled?node-id=0%3A1)
+
+
 
