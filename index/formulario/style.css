@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+}
+
+.caja-princ-form{
+    background-color: black;
+    height: 350px;
+    width: 50%;
+    margin: auto;
+
+}
