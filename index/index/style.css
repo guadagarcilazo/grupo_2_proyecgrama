@@ -1,12 +1,14 @@
 body{
-    margin: 0%;
+    margin: 0;
 }
-#fondo{
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-    
+
+.video-fondo {
+    display: block;
+    margin: 0;
+    width: 100vw;
+    /* height: 600px; */
 }
+
 h1{
     position: absolute;
     top: 10px;
@@ -15,11 +17,13 @@ h1{
     font-size: 140px;
     color: #f9f9fa;
 }
+
 span{
-    background: linear-gradient(to right, rgb(237, 15, 207), rgb(26, 11, 195));
-     -webkit-background-clip: text;
+    background: linear-gradient(to right, #C73189, #8F00FF);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
+
 #logoindex{
     position: absolute;
     top: 100px;
