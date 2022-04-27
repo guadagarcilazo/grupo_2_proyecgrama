@@ -2,7 +2,7 @@ body{
     margin: 0%;
 }
 #fondo{
-    position: relative;
+    position: absolute;
     display: inline-block;
     text-align: center;
     
