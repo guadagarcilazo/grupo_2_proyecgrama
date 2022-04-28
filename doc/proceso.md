@@ -26,7 +26,7 @@ La división de tareas fue sencilla . Todos ibamos a aportar en la eleccion de w
 
 -Natalí Lescano : Rol como desarrollador - Armado de wireframe .
 
--Guadalupe Garcilazo: Rol como líder - Documentación del día a día . Armado de README . Logo . Nombre de proyecto .
+-Guadalupe Garcilazo: Rol como líder - Documentación del día a día . Armado de README . Logo . Nombre de proyecto . Como integrante del equipo, asumo mi rol como desarrolladora. Estoy en este proyecto desde sus inicios y mis apoyos soncombinar e integrar ideas con mis compañeros, motivando e incentivando a crecer y mejorar día a día.
 
 -Lautaro Coria: Como nuevo integrante del Equipo 2, asumio su rol como desarrollador - Armado de wireframe .
 
