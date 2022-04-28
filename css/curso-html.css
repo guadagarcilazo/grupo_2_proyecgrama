@@ -41,6 +41,7 @@ body {
 
 .header__link {
     text-decoration: none;
+    color: #fff;
 }
 
 .logo {
@@ -55,6 +56,68 @@ body {
 
 /* Estilos para el hero */
 
-.hero__video {
+.hero {
+    position: relative;
+}
+
+.hero__cols {
+    position: absolute;
+    top: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
+}
+
+.hero__video {
+    position: relative;
+    width: 100%;
+}
+
+.hero__col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero__col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 450px;
+    border-radius: 25px;
+    background-image: url(../assets/img/curso-html/portada-video.png);
+    background-size: cover;
+}
+
+.hero__title {
+    margin-top: 0;
+    font-size: 3em;
+    color: #fff;
+}
+
+.hero__lenguaje {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hero__contenido {
+    font-size: 1.7em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.hero__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.2em;
+    color: #fff;
+    list-style: none;
+}
+
+.hero__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }

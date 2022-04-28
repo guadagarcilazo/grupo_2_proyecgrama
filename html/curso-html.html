@@ -17,11 +17,13 @@
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="../assets/img/curso-html/logo.png" alt="Logo Proyecgrama">
+        <a href="index.html">
+            <img class="logo" src="../assets/img/curso-html/logo.png" alt="Logo Proyecgrama">
+        </a>
         <nav>
             <ul class="header__list">
                 <!-- Falta completar el atributo href a las etiquetas <a> -->
-                <li><a class="header__link" href="index.html">DevJump</a></li>
+                <li><a class="header__link" href="#">DevJump</a></li>
                 <li><a class="header__link" href="#">Nosotros</a></li>
                 <li><a class="header__link" href="#">Lenguajes</a></li>
                 <li>
@@ -34,25 +36,35 @@
     </header>
 
     <section class="hero">
-        <video autoplay loop class="hero__video" src="../assets/videos/curso-html/fondo-hero.mp4"></video>
+        <video class="hero__video" src="../assets/videos/curso-html/fondo-hero.mp4" autoplay loop muted></video>
         
-        <div class=hero__col1>
-            <h1>
-                Curso intensivo de <br>
-                <span>HTML 5</span>
-            </h1>
-            <h3>Contenido:</h3>
-            <ul>
-                <li>Clases Online</li>
-                <li>Proyectos integradores</li>
-                <li>Acompañamiento de un tutor o tutora</li>
-            </ul>
+        <div class="hero__cols">
+            <div class=hero__col1>
+                <h1 class="hero__title">
+                    Curso intensivo de <br>
+                    <span class="hero__lenguaje">HTML 5</span>
+                </h1>
+                <h3 class="hero__contenido">Contenido:</h3>
+                <ul class="hero__list">
+                    <li class="hero__item">
+                        <img src="../assets/img/curso-html/icon-online.png" alt="Icon Clases Online">
+                        Clases Online
+                    </li>
+                    <li class="hero__item">
+                        <img src="../assets/img/curso-html/icon-proyecto.png" alt="Icon Proyecto">
+                        Proyectos integradores
+                    </li>
+                    <li class="hero__item">
+                        <img src="../assets/img/curso-html/icon-tutor.png" alt="Icon Tutor/a">
+                        Acompañamiento de un tutor o tutora
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="hero__col2">
+                <img src="../assets/img/curso-html/btn-play.png" alt="Boton Play">
+            </div>
         </div>
-
-        <div class="hero__col2">
-
-        </div>
-
     </section>
 </body>
 </html>
