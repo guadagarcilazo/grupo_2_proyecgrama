@@ -24,19 +24,27 @@
 
 La división de tareas fue sencilla . Todos ibamos a aportar en la eleccion de wireframe, colores, imagenes, etc . Se charlaba con el grupo a estar dispuestos a recibir cualquier idea/sugerencia sobre las tareas de cada uno y siempre buscar que mejorar .
 
--Gonzalo Alvarez : Rol como desarrollador - Armado de wireframe . // agregar aca datos mas personales , como como se sientes etc
+-Gonzalo Alvarez : Rol como desarrollador - Armado de wireframe .
+
+"Soy Gonzalo Alvarez y mi rol en este proyecto es como desarrollador. Inicié en  el mundo de la programación mediante el equipo DevJump, ahí mismo, aprendí como crear una página web desde cero con el uso de HTML5 y darle "Vida" con CSS y JavaScript. Gracias a todo lo aprendido pude implementar ideas a Proyecgrama y llevarlas a cabo."
 
 -Natalí Lescano : Rol como desarrollador - Armado de wireframe .
 
--Guadalupe Garcilazo: Rol como líder - Documentación del día a día . Armado de README . Logo . Nombre de proyecto . Como integrante del equipo, asumo mi rol como desarrolladora. Estoy en este proyecto desde sus inicios y mis apoyos soncombinar e integrar ideas con mis compañeros, motivando e incentivando a crecer y mejorar día a día.
+"Como integrante del equipo, asumí también el rol de líder y de desarrollador para este proyecto. Acordando pudimos hacer un gran cambio en el proyecto con combinación de nuevas ideas y cambios que son geniales. Me siento bien en ser parte del equipo 2, hay un gran apoyo mutuo."
+
+-Guadalupe Garcilazo: Rol como líder - Documentación del día a día . Armado de README . Logo . Nombre de proyecto . 
+
+"Como integrante del equipo, asumo mi rol como desarrolladora. Estoy en este proyecto desde sus inicios y mis apoyos soncombinar e integrar ideas con mis compañeros, motivando e incentivando a crecer y mejorar día a día."
 
 -Lautaro Coria: Como nuevo integrante del Equipo 2, asumio su rol como desarrollador - Armado de wireframe .
 
-" Traje un poco de experiencia para compartir e implementar y también adquirí nuevas de este equipo que me recibió de la manera más amena. A pesar del poco tiempo, pudimos reflejar con éxito las nuevas medidas sin afectar a lo ya establecido y logrando una integridad en forma plena. Como desarrollador asumo el rol de la mejora constante, de la escucha, del compromiso, la ayuda y la confianza en el trabajo de mi equipo . "
+"Traje un poco de experiencia para compartir e implementar y también adquirí nuevas de este equipo que me recibió de la manera más amena. A pesar del poco tiempo, pudimos reflejar con éxito las nuevas medidas sin afectar a lo ya establecido y logrando una integridad en forma plena. Como desarrollador asumo el rol de la mejora constante, de la escucha, del compromiso, la ayuda y la confianza en el trabajo de mi equipo . "
 
 ## Metodologías que adoptamos
 
-Adoptamos como metodología el método SCRUM .           //link de JIRA
+Adoptamos como metodología el método SCRUM .
+
+Link de Jira: https://lautarocoria.atlassian.net/jira/software/c/projects/PRG/boards/2?atlOrigin=eyJpIjoiMjgxOTkzOTEwZTJiNGVhYjkyYWJlZGEzZWQ0MTk1ZjAiLCJwIjoiaiJ9
 
 Para hacer uso de la metodología Scrum, pusimos a disposición del equipo la herramienta Jira Software. Creamos un proyecto donde establecimos las diferentes tareas de acuerdo a los requerimientos del cliente y organizamos los diferentes Sprints que nos van a guiar en las toma de decisiones con base en las prioridades y tiempos pactados.
 
@@ -124,7 +132,7 @@ Nos organizamos cada integrante con tareas:
 
 -Lautaro Coria: Agregar la parte logueada en wireframe, la descripción de como se verá el contenido de cada lenguaje
 
--Guadalupe Garcilazo: Agregar el menún(con la foto de perfil) en desktop y dispositivos móviles.
+-Guadalupe Garcilazo: Agregar el menú(con la foto de perfil) en desktop y dispositivos móviles.
 
 -Natalí Lescano: Modificar y agregar redes en el formulario de registro e inicio de sesión.
 
@@ -162,8 +170,34 @@ Aparte comenzamos con el maquetado en código:
 
 Lauti: Con el header
 
+<img src="img/header.png"  height='300px'>
+
 Guada: Con la parte principal de la página
+
+<img src="img/index.png"  height='300px'>
 
 Gonzalo: Los fornularios de registro e inicio de sesión
 
+<img src="img/ejemplo.png"  height='300px'>
+
 Natali: con la seccion HTML
+
+Cabe destacar que se muestra hasta lo que llegamos en ese momento
+
+
+_Jueves 28/04_ Seguir con el código, organizamos bien en la carpetas del repositorio. Practicar y preparar la presentación para la
+próxima Review. 
+
+Lautaro: Parte del código con la descripción del lenguaje cuando se está iniciado sesión.
+
+<img src="img/presentacionloginhtml.png"  height='300px'>
+
+Gonzalo: Parte del código con los formularios 
+
+<img src="img/ejemplo (1).png"  height='300px'>
+
+Natali: Con la documentación y organización del equipo.
+
+Guadalupe: Parte del código con el index
+
+Hasta el momento avanzamos con el código, pusheamos y avismos. Mucha ayuda y apoyo del gran equipo.
