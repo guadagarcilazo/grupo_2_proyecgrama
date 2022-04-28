@@ -1,0 +1,60 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilos para el header */
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    font-weight: 600;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    justify-content: space-between;
+    list-style: none;
+    /* background-color: violet; */
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.avatar {
+    width: 50px;
+    border-radius: 100%;
+}
+
+/* Estilos para el hero */
+
+.hero__video {
+    width: 100%;
+}
