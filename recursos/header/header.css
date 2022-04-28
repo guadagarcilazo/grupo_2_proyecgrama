@@ -1,14 +1,22 @@
+/* Este import de la fuente no va a hacer falta porque va a estar en el css del index */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
 .encabezado {
-    position: fixed;
-    top: 0;
-    z-index: 1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
-    height: 80px;
+    padding-right: 40px;
+    height: 60px;
+    /* 
+        Este font-family a lo mejor no sea necesario
+        porque esta propiedad va a estar en el body
+    */
     font-family: 'Inter', sans-serif;
-    font-weight: 600;    
+    /*
+        Hay que eliminar esta background-color para
+        que quede transparente el fondo
+    */
+    background-color: rgba(90, 26, 184, 1);
 }
 
 .encabezado__list {
@@ -33,7 +41,6 @@
 
 .encabezado__ingresa {
     padding: 10px 30px;
-    margin-right: 40px;
     border-radius: 8px;
     background-color: #68BFAB;
 }

@@ -1,4 +1,4 @@
-<img src="logo.png" height='100px'>
+<img src="img/logo.png" height='100px'>
 
 # Proyecgrama : Proyecto DevJump
 
@@ -31,19 +31,19 @@ Su nombre surgio de la mezcla entre - Proyecto y Programa - .
 
 El logo cumple con la colorimetría de la pagina , el estilo y su fin . 
 
-<img src="logo.png" height='130px'>
+<img src="img/logo.png" height='130px'>
 
 ## Paleta Cromática
 
 Seleccionamos los colores que representan a Arbusta .
 
-<img src="colorimetria.png" height='130px'>
+<img src="img/colorimetria.png" height='130px'>
 
 ## Tipografía
 
 Seleccionamos este tipo de letra legible, elaborado y diseñado para pantallas .
 
-<img src="tipografia.png" height='130px'>
+<img src="img/tipografia.png" height='130px'>
 
 ## Maquetado/Wireframe
 
