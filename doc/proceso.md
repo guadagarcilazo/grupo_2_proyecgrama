@@ -18,6 +18,8 @@
 
 * Toma de decisiones finales 
 
+* Semana del armado de la página
+
 ## Division de tareas 
 
 La división de tareas fue sencilla . Todos ibamos a aportar en la eleccion de wireframe, colores, imagenes, etc . Se charlaba con el grupo a estar dispuestos a recibir cualquier idea/sugerencia sobre las tareas de cada uno y siempre buscar que mejorar .
@@ -110,4 +112,58 @@ Lautaro: De la maquetación de la página de Inicio o Home, asegurándose de ult
 [Wireframe elegido](https://www.figma.com/file/6Vz4FdXkiOXlXJduHf1jVP/Untitled?node-id=0%3A1)
 
 
+## Día del Review
 
+_Viernes 22/04_ : El día de la presentación con los clientes. Presentamos el Wireframe, hablamos como lo organizamos, ha comentado todo el equipo. Recibimos el feedback y algunas cosas que mejorar como en la parte que nos toca a cada uno, agregar la introducción de nosotros, entre otras modificaciones que lo vamos a explicar a continuación.
+
+# Semana del armado de la página
+
+_Lunes 25/04_ : Estuvimos modificando y agregando parte del Wireframe.
+
+Nos organizamos cada integrante con tareas:
+
+-Lautaro Coria: Agregar la parte logueada en wireframe, la descripción de como se verá el contenido de cada lenguaje
+
+-Guadalupe Garcilazo: Agregar el menún(con la foto de perfil) en desktop y dispositivos móviles.
+
+-Natalí Lescano: Modificar y agregar redes en el formulario de registro e inicio de sesión.
+
+-Gonzalo Alvarez: Agregar también el contenido del 
+
+_Martes 26/04_ Asistimos a la oficina y no avanzamos mucho con el proyecto a razón de la evaluación, y estabamos enfocados en
+estudiar y repasar ese día.
+Nos organizamos de empezar a hacer el html y css de la página. Por partes, contamos con el footer terminado.
+
+
+Algunas modificaciones con el login:
+
+<img src="img/registro.png"  height='300px'>
+
+Se agregó para registrarse e iniciar sesión con redes sociales conocidas, como una alternativa.
+
+
+_Miércoles 27/04_ : Damos últimos toques al Wireframe. Agregar contenido en la sección de los lenguajes. Arreglar el Registro e Inicio de Sesión. Agregar el menú que aparecerá en los  dispositivos móviles.
+La parte cuando no se está logueado y la que sí en el responsive.  
+Acordamos ir haciendo parte del html del index, secciones, header, footer y los formularios. Crear el README para el Manual para entender la navegación de nuestra página.
+
+Agregamos la sección logueada: 
+
+<img src="img/logueado.png"  height='300px'>
+
+El menú de cuando se está iniciado sesión.
+
+<img src="img/menúmovil.png"  height='300px'>
+
+Descripción del contenido del lenguaje
+
+<img src="img/cursada.png"  height='300px'>
+
+Aparte comenzamos con el maquetado en código:
+
+Lauti: Con el header
+
+Guada: Con la parte principal de la página
+
+Gonzalo: Los fornularios de registro e inicio de sesión
+
+Natali: con la seccion HTML
