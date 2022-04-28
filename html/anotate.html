@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/anotate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css" integrity="sha512-p++g4gkFY8DBqLItjIfuKJPFvTPqcg2FzOns2BNaltwoCOrXMqRIOqgWqWEvuqsj/3aVdgoEo2Y7X6SomTfUPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+     <!--   Caja que "sombra" a la caja del formulario -->
+        <div class="caja-sombra">
+            <div id="logo-boton"><a href="index.html"><img src="../assets/img/login/logo.png" alt="" height="100%" width="100%"></a></div>
+        </div>
+       <!--  caja de formulario -->
+        <div class="caja-form">
+            <!-- formulario -->
+            <div id="form"> 
+                <form>
+                    <!-- Nombre -->
+                    <h3 id="nombre-titulo">Nombre</h3>
+                   <input type="text"  placeholder="Nombre" required id="nombre">
+                <!--    Correo -->
+                   <h3 id="correo-titulo">Correo electrónico</h3>
+                   <input type="email" placeholder="E-mail" required id="email">
+                   <!-- Contraseña -->
+                   <h3 id="contraseña-titulo">Contraseña</h3>
+                   <input type="password" placeholder="Contraseña" required id="contraseña">
+                   <!-- Contraseña -->
+                   <h3 id="apellido-titulo">Apellido</h3>
+                   <input type="text" placeholder="Contraseña" required id="apellido">   
+                   <!-- Usuario -->
+                   <h3 id="usuario-titulo">Usuario</h3>
+                   <input type="text" placeholder="Usuario" required id="usuario">   
+                   <!-- Confirma la contraseña -->
+                   <h3 id="ccontraseña-titulo">Confirma la contraseña</h3>
+                   <input type="password" placeholder="Confirma la contraseña" required id="ccontraseña"> 
+                   <!-- Botón registrate --> 
+                   <input type="submit" value="Registrate" id="boton-registrate">
+                   <!-- checkbok -->
+                   <input type="checkbox"  id="aceptar" required>
+                </form>
+                <!-- condiciones -->
+                <div id="condiciones"><a href="">Acepto los Términos y Política de Privacidad</a></div>
+                <!-- sugerencia -->
+                <div id="sugerencia"><a href="">o usa una de tus redes </a></div>
+     <!--  Caja con las redes sociales como twitter, google y github -->
+        <div class="caja-redes">
+             <div id="twitter"><a href=""><i class="fa-brands fa-twitter"></i>Twitter</a> </div>
+             <div id="google"><a href=""><i class="fa-brands fa-twitter"></i>google</a> </div>
+             <div id="github"><a href=""><i class="fa-brands fa-twitter"></i>github</a> </div>
+        </div>
+            </div>
+        </div>
+       <!--  pregunta y boton para iniciar sesión  -->
+        <div class="caja-preguntayboton-is">
+            <!-- pregunta -->
+            <div id="pregunta-is"><p>¿Ya estás registrado?</p></div>
+            <div id="boton-is"><a href="index.html">Inicia sesión</a></div>
+
+        </div>
+     
+</body>
+</html>
