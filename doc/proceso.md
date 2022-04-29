@@ -136,7 +136,7 @@ Nos organizamos cada integrante con tareas:
 
 -Natalí Lescano: Modificar y agregar redes en el formulario de registro e inicio de sesión.
 
--Gonzalo Alvarez: Agregar también el contenido del 
+-Gonzalo Alvarez: Agregar también el contenido de las cajas, sección de la descripción del contenido del lenguaje.
 
 _Martes 26/04_ Asistimos a la oficina y no avanzamos mucho con el proyecto a razón de la evaluación, y estabamos enfocados en
 estudiar y repasar ese día.
@@ -164,7 +164,7 @@ El menú de cuando se está iniciado sesión.
 
 Descripción del contenido del lenguaje
 
-<img src="img/cursada.png"  height='300px'>
+<img src="img/cursada.png"  height='400px'>
 
 Aparte comenzamos con el maquetado en código:
 
@@ -176,13 +176,13 @@ Guada: Con la parte principal de la página
 
 <img src="img/index.png"  height='300px'>
 
-Gonzalo: Los fornularios de registro e inicio de sesión
+Gonzalo: Los formularios de registro e inicio de sesión
 
 <img src="img/ejemplo.png"  height='300px'>
 
-Natali: con la seccion HTML
+Natali: con la seccion HTML, documentación.
 
-Cabe destacar que se muestra hasta lo que llegamos en ese momento
+Cabe destacar que se muestra hasta lo que llegamos en el día.
 
 
 _Jueves 28/04_ Seguir con el código, organizamos bien en la carpetas del repositorio. Practicar y preparar la presentación para la
@@ -198,6 +198,11 @@ Gonzalo: Parte del código con los formularios
 
 Natali: Con la documentación y organización del equipo.
 
-Guadalupe: Parte del código con el index
+Guadalupe: Parte del código con el index.
 
-Hasta el momento avanzamos con el código, pusheamos y avismos. Mucha ayuda y apoyo del gran equipo.
+Pensamos en el direferenciador de la página, sería el ArialLebel.
+
+Arial Lebel: es una implementación para la accesibilidad de la página.
+
+Hasta el momento avanzamos con el código, lo subimos al repositoria avisando.
+Es un gran equipo, contando con gran apoyo mutuo y la gran cantidad de ideas que aportamos. Me encanta ser parte del equipo 2. 
