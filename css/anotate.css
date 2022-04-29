@@ -1,0 +1,369 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap'); */
+body{
+    /*   color de fondo */
+      background: linear-gradient(to bottom, rgb(115, 0, 255), white);
+      /* saca el scroll de la pesataña */
+      overflow-y: hidden;
+      overflow-x: hidden;
+      /* fuente */
+      font-family: 'Nunito Sans', sans-serif;
+  
+  }
+  
+  
+  /* Caja sombra */
+  .caja-sombra{
+     background-color: rgb(77, 244, 255, 0.53);
+     height: 395px;
+     width: 60%;
+     margin-top: 9%;
+     margin-left: 7%;
+     border-radius: 20px;
+  }
+  
+  
+  /* Botón/logo que me lleva al index */
+  
+  #logo-boton{
+  /* background-color: chartreuse; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top: 130px;
+  left: 90px;
+  }
+  
+  
+  /* caja del formulario */
+  
+  .caja-form{
+      background-color: rgb(155, 71, 185);;
+      height: 395px;
+      width: 60%;
+      margin-top: 9%;
+      margin-left: 7%;
+      position: relative;
+      left: 300px;
+      top: -505px;
+      z-index: 2;
+      border-radius: 20px;
+      box-shadow: -10px 9px 5px rgb(255, 255, 255, 0.2);
+  }
+  
+  /* FORMULARIO */
+  
+  /* Caja del formulario */
+  #form{
+  /*     background-color: blue; */
+      width: 94%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  
+  
+  /* titulo "nombre" para el input de nombre */
+  
+  #nombre-titulo{
+      position: relative;
+      left: 30px;
+      top: 25px;
+      color: aliceblue;
+  }
+  
+  
+  /* Input de nombre */
+  
+  #nombre{
+      position: relative;
+      height: 25px;
+      left: 30px;
+      top: 15px;
+      width: 250px;
+      border-radius: 7px;
+      border: none;
+  
+  }
+  /* titulo "correo" para el input de correo */
+  #correo-titulo{
+      position: relative;
+      left: 30px;
+      top: 25px;
+      color: aliceblue;
+  }
+  /* Input de correo */
+  #email{
+      position: relative;
+      height: 25px;
+      left: 30px;
+      top: 15px;
+      width: 250px;
+      border-radius: 7px;
+      border: none;
+  }
+  
+  
+  /* titulo "contraseña" para el input de contraseña */
+  #contraseña-titulo{
+      position: relative;
+      left: 30px;
+      top: 25px;
+      color: aliceblue;
+  }
+  /* Input de contraseña */
+  #contraseña{
+      position: relative;
+      height: 25px;
+      left: 30px;
+      top: 15px;
+      width: 250px;
+      border-radius: 7px;
+      border: none;
+  }
+  
+  /* titulo "apellido" para el input de apellido */
+  #apellido-titulo{
+      position: relative;
+      left: 390px;
+      top: -231px;
+      color: aliceblue;
+      
+  }
+  /* Input de contraseña */
+  #apellido{
+      height: 25px;
+      position: relative;
+      left: 390px;
+      top: -242px;
+      width: 250px;
+      border-radius: 7px;
+      border: none;
+  }
+  
+  
+  /* titulo "usuario" para el input de usuario */
+  #usuario-titulo{
+      position: relative;
+      left: 390px;
+      top: -232px;
+      color: aliceblue;
+  }
+  /* Input de usuario */
+  #usuario{
+      height: 25px;
+      position: relative;
+      left: 390px;
+      top: -242px;
+      width: 250px;
+      border-radius: 7px;
+      border: none;
+  }
+  
+  
+  /* titulo "Confirma la contraseña" para el input de  ccontraseña */
+  #ccontraseña-titulo{
+      position: relative;
+      left: 390px;
+      top: -232px;
+      color: aliceblue;
+  }
+  /* Input de usuario */
+  #ccontraseña{
+      height: 25px;
+      position: relative;
+      left: 390px;
+      top: -242px;
+      width: 250px;
+      border-radius: 7px;
+      border: none;
+  }
+  
+  
+  
+  
+  
+  /* sugerencia */
+  
+  
+  #sugerencia{
+      position: relative;
+      top: -258px;
+      left: 270px;
+  }
+  #sugerencia a{
+      text-decoration: none;
+      color: #ffffff;
+  }
+  #sugerencia a:hover{
+      text-decoration: none;
+      color: rgb(18, 175, 219);
+  }
+  
+  
+  /* Caja con las redes sociales como twitter, google y github */
+  
+  .caja-redes{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  /*     background-color: black; */
+      height: 50px;
+      width: 60%;
+      position: relative;
+      top: -260px;
+      left: 130px;
+  }
+  
+  /* Botón twitter */
+  
+  #twitter{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: gray;
+      height: 30px;
+      width: 30%;
+      margin-right: 10px;
+      border-radius: 7px;
+  }
+  #twitter a{
+      text-decoration: none;
+      color: #ffffff;
+  }
+  #twitter a:hover{
+      text-decoration: none;
+      color: rgb(155, 18, 219);
+  }
+  /* Botón google */
+  #google{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: gray;
+      height: 30px;
+      width: 30%;
+      border-radius: 7px;
+  }
+  #google a{
+      text-decoration: none;
+      color: #ffffff;
+  }
+  #google a:hover{
+      text-decoration: none;
+      color: rgb(155, 18, 219);
+  }
+  /* Botón google */
+  #github{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: gray;
+      height: 30px;
+      width: 30%;
+      margin-left: 10px;
+      border-radius: 7px;
+  }
+  
+  #github a{
+      text-decoration: none;
+      color: #ffffff;
+  }
+  #github a:hover{
+      text-decoration: none;
+      color: rgb(155, 18, 219);
+  }
+  
+  /* checkbox */
+  #aceptar{
+      position: relative;
+      top: -148px;
+      left: -175px;
+  }
+  
+  /* condiciones */
+  
+  #condiciones{
+      position: relative;
+      top: -175px;
+      left: 200px;
+      
+  }
+  #condiciones a{
+      text-decoration: none;
+      color: #ffffff;
+  }
+  #condiciones a:hover{
+      text-decoration: none;
+      color: rgb(18, 175, 219);
+  }
+  /* Boton registrate */
+  #boton-registrate{
+      position: relative;
+      top: -115px;
+      left: 37px;
+      z-index: 1;
+      border-radius: 7px;
+      border: none;
+      height: 30px;
+      background-color: rgb(255, 0, 166);
+      color: #ffffff;
+  }
+  
+  #boton-registrate:hover{
+      background-color: white;
+      color: rgb(255, 0, 166);
+     
+  }
+  
+  
+  /*  pregunta y boton para iniciar sesión   */
+  
+  .caja-preguntayboton-is{
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 400px;
+      position: relative;
+      top: -460px;
+  }
+  
+  #pregunta-is{
+      color: #ffffff;
+   
+  }
+  
+  
+  #boton-is{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(255, 0, 166);
+      height: 40px;
+      width: 110px;
+      border-radius: 7px;
+      margin-left: 20px;
+  }
+  
+  #boton-is a{
+      text-decoration: none;
+      color: #ffffff;
+  }
+  
+  
+  #boton-is a:hover{
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(255, 0, 166);
+      transition: 1s;
+      height: 100%;
+      width: 100%;
+      border-radius: 7px;
+  }

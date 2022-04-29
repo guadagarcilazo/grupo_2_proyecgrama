@@ -80,10 +80,14 @@ Para la sección de Inicio o también conocida como Home, tomamos como premisa l
 
 Acceder/Registrarse, Cursos y presentación del proyecto .
 
-## Opciones a futuro
+<!-- ## Opciones a futuro
 
 Esta la posibilidad del cual cuando la web se haga real, surjan algunas modificaciones . 
+ -->
+
+## Empieza el recorrido de nuestra Página Web
 
 
+<img src="img/inicio.png" height='300px'>
 
 
