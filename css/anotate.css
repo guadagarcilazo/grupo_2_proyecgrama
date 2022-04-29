@@ -25,7 +25,7 @@ body{
   /* Botón/logo que me lleva al index */
   
   #logo-boton{
-  /* background-color: chartreuse; */
+/*   background-color: chartreuse; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,19 @@ body{
   position: relative;
   top: 130px;
   left: 90px;
+
   }
+
+/*   logo hover */
+
+#logo-hover:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(156, 41, 201);
+    border-radius: 100px;
+    height: 90%;
+}
   
   
   /* caja del formulario */
