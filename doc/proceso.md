@@ -120,11 +120,11 @@ Lautaro: De la maquetación de la página de Inicio o Home, asegurándose de ult
 [Wireframe elegido](https://www.figma.com/file/6Vz4FdXkiOXlXJduHf1jVP/Untitled?node-id=0%3A1)
 
 
-## Día del Review
+## Review Sprint 1
 
 _Viernes 22/04_ : El día de la presentación con los clientes. Presentamos el Wireframe, hablamos como lo organizamos, ha comentado todo el equipo. Recibimos el feedback y algunas cosas que mejorar como en la parte que nos toca a cada uno, agregar la introducción de nosotros, entre otras modificaciones que lo vamos a explicar a continuación.
 
-# Semana del armado de la página
+# Semana 3: El armado de la página
 
 _Lunes 25/04_ : Estuvimos modificando y agregando parte del Wireframe.
 
@@ -192,7 +192,7 @@ Lautaro: Parte del código con la descripción del lenguaje cuando se está inic
 
 <img src="img/presentacionloginhtml.png"  height='300px'>
 
-Gonzalo: Parte del código con los formularios 
+Gonzalo: Parte del código con los formularios.
 
 <img src="img/ejemplo (1).png"  height='300px'>
 
@@ -203,6 +203,20 @@ Guadalupe: Parte del código con el index.
 Pensamos en el direferenciador de la página, sería el ArialLebel.
 
 Arial Lebel: es una implementación para la accesibilidad de la página.
+Es un atributo diseñado para ayudar a la tecnología de asistencia (por ejemplo, lectores de pantalla)
 
 Hasta el momento avanzamos con el código, lo subimos al repositoria avisando.
 Es un gran equipo, contando con gran apoyo mutuo y la gran cantidad de ideas que aportamos. Me encanta ser parte del equipo 2. 
+
+Link del proyecto:  https://www.figma.com/file/6Vz4FdXkiOXlXJduHf1jVP/Untitled?node-id=0%3A1 
+
+
+## Review del Sprint 2 
+
+_Viernes 29/04_  Tuvimos la daily del equipo. Todos estamos bien. Asignamos las tareas. Asistimos a la reunion de la presentación del Sprint 2. Dimos la presentacion parte del Wireframe, cada integrante con su parte asignada. Mostrar algo del código.
+Recibir feedback de parte de los clientes, y algunas mejoras a aplicar para la próxima Review.
+
+Parte 2: Reunión en la tarde para seguir armando el manual, readme y loas estructuras con HTML y CSS de la página.
+
+
+## Semana 4: Continuación del armado de la página 
