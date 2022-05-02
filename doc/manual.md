@@ -90,4 +90,19 @@ Esta la posibilidad del cual cuando la web se haga real, surjan algunas modifica
 
 <img src="img/inicio.png" height='300px'>
 
+_Principal:_ En la navegación se encuentran las secciones del index: Devjump, Nosotros, Lenguajes, Anotate e Ingresa.
+En esa parte, cada uno tiene su respectivo link donde te llevara a cada descripción de las mismas.
+En Anotate e Ingresa, te lleva a una página donde aparecerán los formularios con distinto diseño pero con la misma finalidad. Se encontrará para introducir los datos o por las redes sociales conocidas.
 
+## 1. Devjump
+
+Al hacer click en Devjump, te dirijirá a esta parte de la página para que nos conozca a la organización.
+
+
+<img src="img/Devjjump.png" height='300px'>
+
+## 2. Sobre nosotros 
+
+<img src="img/sobrenosotros.png" height='250px'>
+
+_Sobre Nosotros:_ En esta parte damos una breve presentación del equipo que conforma en Devjump, con sus habilidades, desiciones, y todas las ganas que pusieron a este hermoso proyecto.
