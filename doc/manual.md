@@ -20,6 +20,8 @@
 
 * Opciones a futuro
 
+* Manual para el usuario
+
 ## Nombre 
 
 Proyecgrama es una plataforma de educación tecológica que impulsa nuevos talentos que buscan ser insertados dentro del mercado IT . <br>
@@ -85,7 +87,7 @@ Acceder/Registrarse, Cursos y presentación del proyecto .
 Esta la posibilidad del cual cuando la web se haga real, surjan algunas modificaciones . 
  -->
 
-## Empieza el recorrido de nuestra Página Web
+## Manual del usuario: Empieza el recorrido de nuestra Página Web
 
 
 <img src="img/inicio.png" height='300px'>
