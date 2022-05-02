@@ -11,7 +11,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -29,7 +29,7 @@ a {
     align-items: center;
     padding: 20px 0;
     width: 100%;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .header__list {
@@ -219,7 +219,6 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-basis: 30%; */
     width: 200px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -246,4 +245,180 @@ hr {
 
 .contenido__classtitle {
     font-size: 1.3em;
+}
+
+/* Sección comentarios */
+
+.valoracion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+}
+
+.valoracion__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.valoracion__form * {
+    margin: 0;
+}
+
+.valoracion__subtitle {
+    font-weight: 400;
+}
+
+.valoracion__star-content i {
+    font-size: 1.5em;
+    color:#6D348A;
+}
+
+.valoracion__comment {
+    padding: 10px;
+    font-family: inherit;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.valoracion__comment:focus {
+    outline: 2px solid #6D348A;
+}
+
+.valoracion__submit {
+    align-self: flex-end;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color:#6D348A;
+    border: none;
+    border-radius: 5px;
+}
+
+.valoracion__submit:hover {
+    cursor: pointer;
+    background-color: rgba(109, 52, 137, 0.9);
+}
+
+/* Cursos relacionados */ 
+
+.cursos-rel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+    background-color: #EFEFEF;
+}
+
+.cursos-rel__arts {
+    display: flex;
+    gap: 50px;
+}
+
+.cursos-rel article {
+    width: 280px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.cursos-rel header {
+    padding: 25px;
+    font-weight: 700;
+}
+
+.cursos-rel__css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    background: linear-gradient(90deg, #2a1c56 0%, #2196f3 33%, #2196f3 66%, #2a1c56 100%);
+}
+
+.cursos-rel__css img,
+.cursos-rel__js img {
+    width: 80px;
+}
+
+.cursos-rel__js {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    background: linear-gradient(90deg, #2A1C56 0%, #68BFAB 33%, #68BFAB 66%, #2A1C56 100%);
+}
+
+.cursos-rel p {
+    margin: 0;
+    padding: 20px;
+}
+
+.cursos-rel footer {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    color: white;
+    background-color: #595959;
+}
+
+.footer__img {
+    height: 20px;
+    width: 20px;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__redes div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__title {
+    font-size: 28px;
+    color: transparent;
+    background: linear-gradient(#776CF9,#68BFAB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.map {
+    width: 30vw;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 0.9em;
+    list-style-type: none;
 }
