@@ -350,7 +350,7 @@ img {
     .contenedor6 {
         background-color: #595959;
         width: 100%;
-        height: 400px;
+        height: 450px;
         display: flex;
         color: white;
     }
@@ -359,13 +359,14 @@ img {
         /* background-color: aqua; */
         width: 50%;
         height: 100%;
+        margin-left: 70px;
     }
     
     .caja3 {
      /*    background-color: black; */
         width: 60%;
         height: 50%;
-        padding: 40px 0px 0px 40px;
+        padding: 70px 0px 0px 40px;
     }
     .caja3 img {
         margin-right: 10px;
@@ -393,5 +394,5 @@ img {
         width: 30%;
         height: 60%;
         margin-left: 90px;
-        margin-top: 20px;
+        margin-top: 40px;
     }
