@@ -194,7 +194,6 @@ body {
     background: linear-gradient(90deg,#6D348A 12%,#68BFAB 78%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: transparent;
     font-size: 50px;
     margin-top: 100px;
     margin-left: 200px;
@@ -209,7 +208,7 @@ body {
     justify-content: center;
 }
 .descripcion {
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 200px;
     width: 60%;
     font-size: 25px;
@@ -239,7 +238,7 @@ ul li {
     padding-top: 70px;
     width: 60%;
     height: 150px;
-    margin-left: 370px; 
+    margin-left: 340px; 
     display: flex;
     justify-content: center;
 }
@@ -254,11 +253,12 @@ h2 {
     padding-top: 50px;
     width: 60%;
     height: 500px; 
-    margin-left: 30%; 
+    margin-left: 23%; 
 }
 .ejemplo {
-    width: 80%;
+    width: 100%;
     height:100%;
+    border-radius: 40px;
 }
 
 /*Preguntas frecuentes */

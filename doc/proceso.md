@@ -203,7 +203,8 @@ Guadalupe: Parte del código con el index.
 Pensamos en el direferenciador de la página, sería el ArialLebel.
 
 Arial Lebel: es una implementación para la accesibilidad de la página.
-Es un atributo diseñado para ayudar a la tecnología de asistencia (por ejemplo, lectores de pantalla)
+Es un atributo diseñado para ayudar a la tecnología de asistencia (por ejemplo, lectores de pantalla), será una gran ayuda para 
+cada persona que lo requiera.
 
 Hasta el momento avanzamos con el código, lo subimos al repositoria avisando.
 Es un gran equipo, contando con gran apoyo mutuo y la gran cantidad de ideas que aportamos. Me encanta ser parte del equipo 2. 
@@ -220,3 +221,5 @@ Parte 2: Reunión en la tarde para seguir armando el manual, readme y loas estru
 
 
 ## Semana 4: Continuación del armado de la página 
+
+_Lunes 02/05_ Daily diario. Seguimos con las mismas tareas pero ya avanzados. Realizar el manual, diferenciador de cada sección.
