@@ -87,24 +87,88 @@ Acceder/Registrarse, Cursos y presentación del proyecto .
 Esta la posibilidad del cual cuando la web se haga real, surjan algunas modificaciones . 
  -->
 
-## Manual del usuario: Empieza el recorrido de nuestra Página Web
+<br>
+<br>
 
+## Manual para el usuario:
+## Empieza el recorrido de nuestra Página Web
+***
 
-<img src="img/inicio.png" height='300px'>
+<br>
 
-_Principal:_ En la navegación se encuentran las secciones del index: Devjump, Nosotros, Lenguajes, Anotate e Ingresa.
-En esa parte, cada uno tiene su respectivo link donde te llevara a cada descripción de las mismas.
-En Anotate e Ingresa, te lleva a una página donde aparecerán los formularios con distinto diseño pero con la misma finalidad. Se encontrará para introducir los datos o por las redes sociales conocidas.
+### `1. Página de Inicio`
+<br>
 
-## 1. Devjump
+Cuando el usuario ingresa por primera vez al sitio web, lo primero que vizualizará es un banner violeta muy llamativo y animado que contiene, en su centro y de tamaños considerables, por un lado una frase y por el otro lado el logo de la organización: 
 
-Al hacer click en Devjump, te dirijirá a esta parte de la página para que nos conozca a la organización.
+* Hacia la derecha se encuentra la frase "UN SALTO AL FUTURO", presentando al slogan. De la cual su primera parte "UN SALTO" tiene estilos sólidos y simples de color blanco; y su segunda parte "AL FUTURO" colocada en una siguiente linea, presenta estilos degradados que van desde el rosado hacia el violeta (colores que representan a la empresa).
 
+* Hacia la izquierda, alineado al slogan, se visualiza el logo, también adquiriendo y presentando colores representativos de la organización.
 
-<img src="img/Devjjump.png" height='300px'>
+Lo segundo que el usario va a reconocer es el encabezado transparente con los enlaces para nevegar a través de la web. Así, el usuario empecerá su recorrido haciéndose una idea de cuáles son las secciones o contenido que puede llegar a entontrar navegando por la herramienta.
 
-## 2. Sobre nosotros 
+Situado en lo más alto y alineado horizontalmente hacia la izquierda se puede leer las diferentes secciones:
 
-<img src="img/sobrenosotros.png" height='250px'>
+* DevJump
+* Nosotros
+* Lenguajes
 
-_Sobre Nosotros:_ En esta parte damos una breve presentación del equipo que conforma en Devjump, con sus habilidades, desiciones, y todas las ganas que pusieron a este hermoso proyecto.
+Y dos botones:
+
+* Anotate
+* Ingresá
+
+Tomando el pimero un color de fondo rosado y el segundo un color verde-agua.
+
+Ambos, secciones y botones, son enlaces que desde el inicio le permiten al usuario manejar una interactividad con el sitio y enviar una sugerencia a ser parte de nuestra comunidad.
+
+<br>
+
+<img src="img/inicio.png">
+
+<br>
+
+### `2. ¿Hacia dónde nos dirigen los enlaces del encabezado?`
+
+<br>
+
+### `2.1 DevJump`
+<br>
+
+La interacción del usuario con el enlace "DevJump" ubicado en el encabezado, provoca un scroll de volocidad lenta que lo situa sobre una sección de fondo gris muy claro que está directamente por debajo del banner violeta inicial y que se compone de dos simples partes centradas vertical y horizontalmente:
+
+* Sutítulo "¿Qué es DevJump?": Con un estilo degradado comenzando con un violeta y terminando en un verde-agua, esta frase sugiere al usuario una idea sobre lo que va a leer.
+
+* Párrafo: Inmediatamente debajo del subtítulo, de color negro y líneas espaciadas, el usuario conoce el origen y nuestra visión a través de un texto corto, directo, cómodo para la vista y de fácil lectura gracias a los estilos establecidos.
+
+<br>
+
+<img src="img/Devjjump.png">
+
+<br>
+
+### `2.2 Sobre nosotros` 
+
+<br>
+
+La interacción del usuario con el enlace "Nosotros", también genera un scroll de velocidad lenta pero que esta vez lo posiciona en una sección de fondo blanca que está por debajo de la anterior. Se pueden distinguir es este apartado tres principales divisiones:
+
+* Subtítulo "Sobre nosotros": Manteniendo los estilos elegidos para los títulos de las diferentes secciones de la página.
+* Párrafo: Breve introducción sobre qué es Proyecgrama y el objetivo que persigue.
+* Sección de imágenes.
+
+<br>
+
+<img src="img/sobre-nosotros.png">
+
+<br>
+
+Hablemos sobre la sección de imágenes. Éstas son interactivas y un único click habilita una ventana emergente por encima que expande el perfil del integrante del proyecto.
+
+<br>
+
+<img src="img/sobre-nosotros-perfiles.png">
+
+<br>
+
+En este caso la pesona seleccionada fue Guadalupe Garcilazo que comenzó su rol como líder del proyecto (tal y como lo menciona en la tarjeta). Podemos observar además su nombre, un párrafo descriptivo donde se desarrolla su función, un enlace a su perfil de LinkedIn para conocer más sobre su trabajo, y por encima en el rincón superior izquierdo un botón para cerrar la venta y volver a la página principal.
