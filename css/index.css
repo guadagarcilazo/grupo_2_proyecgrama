@@ -118,18 +118,32 @@ span{
 .imagenes{
     display: flex;
     justify-content: center;
-    margin-bottom: 5%;
+    margin: 70px 0;
     width: 100%;
     height: 100%;
     background-color: #ffffff;
-
 }
+
+.imagenes__link {
+    margin: 25px;
+    padding: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
 #imagenuno{
     width: 250px;
     height: 250px;
-    border-radius: 150px;
-    padding: 25px;
 }
+
+.imagenes__link:hover {
+    position: relative;
+    top: -10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
 .seccionleng{
     width: 100%;
     height: 600px;
