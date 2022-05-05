@@ -172,3 +172,55 @@ Hablemos sobre la sección de imágenes. Éstas son interactivas y un único cli
 <br>
 
 En este caso la pesona seleccionada fue Guadalupe Garcilazo que comenzó su rol como líder del proyecto (tal y como lo menciona en la tarjeta). Podemos observar además su nombre, un párrafo descriptivo donde se desarrolla su función, un enlace a su perfil de LinkedIn para conocer más sobre su trabajo, y por encima en el rincón superior izquierdo un botón para cerrar la venta y volver a la página principal.
+
+
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+
+<br>
+
+### `2.4 Anotate`
+
+<br>
+
+Este botón dirige al usuario a una nueva página donde se encuentra el formulario de registro. En ella se puede ver una imagen de fondo con un diseño tecnológico donde predomida en el color azul. Centrado, en el frente, y ocupando casi todo el ancho de la pantalla, el formuario tiene un estilo redondeado con un fondo violeta transparentado que deja ver el fondo de atrás. Contiene diferentes campos donde el usuario puede ir completando con sus datos:
+
+* Nombre/s
+* Apellido/s
+* Correo electrónico
+* Usuario
+* Contraseña
+* Confirmar la contraseña
+
+Y debajo una mini-sección donde puede iniciar sesión con alguna de las plataformas más populares:
+
+* Gmail
+* Twitter
+* Github
+
+Una casilla de aceptación de Términos y Política de Privacidad, y por último un botón con la leyenda "Registrate" para enviar los datos del formulario y completar el registro.
+
+Finalmente, por fuera del formulario de registro y específicamente en el rincón inferior izquierdo, en caso de que el usuario posea una cuenta y no necesite este paso de registro, puede dirigirse a la sección correspondiente para dar inicio a su perfil.
+<br>
+
+<img src="img/seccion-anotate.png">
+
+<br>
+
+### `2.5 Ingresá`
+
+<br>
+
+El último enlace del encabezado también es un botón, tiene un formato similiar y sigue la misma línea que el formulario de registro. Acá se puede observar nuevamente una imagen de fondo con un formulario de inicio al frente y centrado que se divide en dos columnas. La primera, hacia la izquierda, contiene botones que le permiten al usuario inisiar sesión vinculando los datos con otras cuentas existentes:
+
+* Google 
+* Twitter
+* Github
+
+La columna de la derecha, por su parte, contiene dos campos primordiales, requeridos y obligatorios para que el usuario pueda ingresar a su cuenta en Proyecgrama:
+
+* Email/Nombre de usuario  
+* Contraseña
+
