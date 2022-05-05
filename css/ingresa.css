@@ -156,7 +156,7 @@ body{
 #email-is{
     display: flex;
     justify-content: center;
-    height: 30px;
+    height: 35px;
     width: 80%;
     margin: 15px auto 0px auto;
     border-radius: 7px;
@@ -170,7 +170,7 @@ body{
 #contraseña-is{
     display: flex;
     justify-content: center;
-    height: 30px;
+    height: 35px;
     width: 80%;
     margin: 15px auto 0px auto;
     border-radius: 7px;
@@ -182,7 +182,7 @@ body{
 #boton-iniciar{
     position: relative;
     top: 15px;
-    left: 120px;
+    left: 165px;
     height: 30px;
     width: 100px;
     border-radius: 7px;
@@ -220,8 +220,8 @@ body{
     height: 30px;
     width: 70%;
     position: relative;
-    top: -105px;
-    left: 50px;
+    top: -90px;
+    left: 75px;
     border-top: 2px solid rgba(55, 55, 192, 0.816);
 }
 
@@ -238,7 +238,7 @@ body{
 /* caja ya ¿tienes cuenta? */
 
 #tienes-cuenta-is{
-/*     background-color: coral; */
+/*     background-color: coral;  */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,8 +246,8 @@ body{
     width: 70%;
     height: 50px;
     position: relative;
-    top: -100px;
-    left: 50px;
+    top: -80px;
+    left: 80px;
     color: #ffffff;
 }
 /* Boton registrate */

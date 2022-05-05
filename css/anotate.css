@@ -14,10 +14,10 @@ body{
   /* Caja sombra */
   .caja-sombra{
      background-color: rgb(77, 244, 255, 0.53);
-     height: 395px;
+     height: 500px;
      width: 60%;
      margin-top: 9%;
-     margin-left: 7%;
+     margin-left: 10%;
      border-radius: 20px;
   }
   
@@ -32,7 +32,7 @@ body{
   height: 150px;
   width: 150px;
   position: relative;
-  top: 130px;
+  top: 170px;
   left: 90px;
 
   }
@@ -53,13 +53,13 @@ body{
   
   .caja-form{
       background-color: rgb(155, 71, 185);;
-      height: 395px;
+      height: 500px;
       width: 60%;
       margin-top: 9%;
       margin-left: 7%;
       position: relative;
-      left: 300px;
-      top: -505px;
+      left: 350px;
+      top: -637px;
       z-index: 2;
       border-radius: 20px;
       box-shadow: -10px 9px 5px rgb(255, 255, 255, 0.2);
@@ -69,8 +69,8 @@ body{
   
   /* Caja del formulario */
   #form{
-  /*     background-color: blue; */
-      width: 94%;
+    /*   background-color: blue;  */
+      width: 80%;
       height: 100%;
       margin-left: auto;
       margin-right: auto;
@@ -92,10 +92,10 @@ body{
   
   #nombre{
       position: relative;
-      height: 25px;
+      height: 35px;
       left: 30px;
       top: 15px;
-      width: 250px;
+      width: 300px;
       border-radius: 7px;
       border: none;
       caret-color: rgb(123, 6, 99);
@@ -112,10 +112,10 @@ body{
   /* Input de correo */
   #email{
       position: relative;
-      height: 25px;
+      height: 35px;
       left: 30px;
       top: 15px;
-      width: 250px;
+      width: 300px;
       border-radius: 7px;
       border: none;
       caret-color: rgb(123, 6, 99);
@@ -133,10 +133,10 @@ body{
   /* Input de contraseña */
   #contraseña{
       position: relative;
-      height: 25px;
+      height: 35px;
       left: 30px;
       top: 15px;
-      width: 250px;
+      width: 300px;
       border-radius: 7px;
       border: none;
       caret-color: rgb(123, 6, 99);
@@ -147,17 +147,17 @@ body{
   #apellido-titulo{
       position: relative;
       left: 390px;
-      top: -231px;
+      top: -265px;
       color: aliceblue;
       
   }
   /* Input de contraseña */
   #apellido{
-      height: 25px;
+      height: 35px;
       position: relative;
       left: 390px;
-      top: -242px;
-      width: 250px;
+      top: -276px;
+      width: 300px;
       border-radius: 7px;
       border: none;
       caret-color: rgb(123, 6, 99);
@@ -169,16 +169,16 @@ body{
   #usuario-titulo{
       position: relative;
       left: 390px;
-      top: -232px;
+      top: -265px;
       color: aliceblue;
   }
   /* Input de usuario */
   #usuario{
-      height: 25px;
+      height: 35px;
       position: relative;
       left: 390px;
-      top: -242px;
-      width: 250px;
+      top: -276px;
+      width: 300px;
       border-radius: 7px;
       border: none;
       caret-color: rgb(123, 6, 99);
@@ -190,16 +190,16 @@ body{
   #ccontraseña-titulo{
       position: relative;
       left: 390px;
-      top: -232px;
+      top: -265px;
       color: aliceblue;
   }
   /* Input de usuario */
   #ccontraseña{
-      height: 25px;
+      height: 35px;
       position: relative;
       left: 390px;
-      top: -242px;
-      width: 250px;
+      top: -276px;
+      width: 300px;
       border-radius: 7px;
       border: none;
       caret-color: rgb(123, 6, 99);
@@ -214,8 +214,10 @@ body{
   
   
   #sugerencia{
+      /*  background-color: aqua; */
+       width: 170px;
       position: relative;
-      top: -258px;
+      top: -275px;
       left: 270px;
   }
   #sugerencia a{
@@ -227,6 +229,7 @@ body{
   /* Caja con las redes sociales como twitter, google y github */
   
   .caja-redes{
+     /*  background-color: black; */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -234,7 +237,7 @@ body{
       width: 60%;
       position: relative;
       top: -260px;
-      left: 130px;
+      left: 145px;
   }
   
   /* Botón twitter */
@@ -342,15 +345,15 @@ body{
   /* checkbox */
   #aceptar{
       position: relative;
-      top: -148px;
-      left: -175px;
+      top: -125px;
+      left: -250px;
   }
   
   /* condiciones */
   
   #condiciones{
       position: relative;
-      top: -175px;
+      top: -155px;
       left: 200px;
       
   }
@@ -365,8 +368,10 @@ body{
   /* Boton registrate */
    #boton-registrate{
       position: relative;
-      top: -115px;
-      left: 37px;
+      top: -90px;
+      left: 0px;
+      height: 40px;
+      width: 110px;
       z-index: 1;
       border-radius: 7px;
       border: none;
@@ -386,14 +391,14 @@ body{
   /*  pregunta y boton para iniciar sesión   */
   
   .caja-preguntayboton-is{
-  
+     /*  background-color: black; */
       display: flex;
       justify-content: center;
       align-items: center;
       height: 50px;
       width: 400px;
       position: relative;
-      top: -460px;
+      top: -600px;
   }
   
   #pregunta-is{
