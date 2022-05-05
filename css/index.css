@@ -153,6 +153,45 @@ span{
     background-color: #bcc2c152;
     margin-top: 10px;
 }
+.cajasLenguajes{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    
+}
+.html{
+    width: 390px;
+    height: 230px;
+    border-radius: 40px;
+    background-color: rgb(155, 154, 154);
+    box-shadow: 3px 3px 6px rgba(93, 91, 91, 0.4);
+}
+.css{
+    width: 390px;
+    height: 230px;
+    border-radius: 40px;
+    background-color: rgb(196, 195, 195);
+    box-shadow: 3px 3px 6px rgba(93, 91, 91, 0.4);
+}
+.javascript{
+    width: 390px;
+    height: 230px;
+    border-radius: 40px;
+    background-color: rgb(139, 138, 138);
+    box-shadow: 3px 3px 6px rgba(93, 91, 91, 0.4);
+}
+#title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#bold{
+    font-weight: 600;
+}
+#imagenesLeng{
+    justify-content: center;
+
+}
 .seccionexp{
     width: 100%;
     height: 600px;
