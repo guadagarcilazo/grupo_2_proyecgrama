@@ -160,27 +160,162 @@ span{
 
     
 }
-.html{
+/* .html{
     width: 390px;
     height: 230px;
     border-radius: 40px;
     background-color: rgb(155, 154, 154);
     box-shadow: 3px 3px 6px rgba(93, 91, 91, 0.4);
+} */
+
+/* CAJA HTML 5 */
+.caja-principal-h{
+    background-color: #ffffff;
+    height: 230px;
+    width: 390px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
-.css{
+
+.img-html{
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#img-html5{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tituloytexto-html{
+    height: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.clasesyhoras-html{
+    position: relative;
+    top: -10px;
+}
+
+
+/* .css{
     width: 390px;
     height: 230px;
     border-radius: 40px;
     background-color: rgb(196, 195, 195);
     box-shadow: 3px 3px 6px rgba(93, 91, 91, 0.4);
+} */
+
+
+/* CAJA CSS */
+.caja-principal-c{
+    background-color: #ffffff;
+    height: 230px;
+    width: 390px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.javascript{
+
+.img-css{
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#img-css3{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tituloytexto-css{
+    height: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.clasesyhoras-css{
+    position: relative;
+    top: -10px;
+}
+
+/* CAJA JAVASCRIPT */
+
+.caja-principal-j{
+    background-color: #ffffff;
+    height: 230px;
+    width: 390px;
+    border-radius: 20px;
+
+}
+
+.img-java{
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#img-jss{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tituloytexto-java{
+    height: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.clasesyhoras-java{
+    position: relative;
+    top: -10px;
+}
+
+
+/* .javascript{
     width: 390px;
     height: 230px;
     border-radius: 40px;
     background-color: rgb(139, 138, 138);
     box-shadow: 3px 3px 6px rgba(93, 91, 91, 0.4);
-}
+} */
 #title{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
