@@ -1,0 +1,1127 @@
+@media screen and (max-width: 1200px){
+    #boton-iniciar{
+        position: relative;
+        top: 15px;
+        left: 105px;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    #boton-iniciar{
+        position: relative;
+        top: 15px;
+        left: 95px;
+    }
+}
+
+@media screen and (max-width: 1010px){
+
+    .caja-princ-der{
+        height: 80%;
+        width: 60%;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    #boton-iniciar{
+        position: relative;
+        top: 15px;
+        left: 85px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    #pregunta-is {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 970px){
+    #pregunta-is {
+        font-size: small;
+        position: relative;
+        left: 40px;
+ 
+    }
+}
+
+@media screen and (max-width: 930px){
+    #boton-iniciar{
+        position: relative;
+        top: 15px;
+        left: 77px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    #boton-iniciar{
+        position: relative;
+        top: 15px;
+        left: 70px;
+    }
+}
+
+@media screen and (max-width: 810px){
+    #boton-iniciar{
+        position: relative;
+        top: 15px;
+        left: 65px;
+    }
+}
+
+@media screen and (max-width: 804px){
+    #pregunta-is {
+        width: 150px;
+        left: 30px;
+    }
+    #boton-iniciar{
+        position: relative;
+        top: 15px;
+        left: 65px;
+    }
+}
+@media screen and (max-width: 770px){
+    #pregunta-is {
+        width: 150px;
+        left: 30px;
+    }
+    #boton-iniciar{
+        position: relative;
+        top: 15px;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    #pregunta-is {
+        width: 150px;
+        left: 30px;
+    }
+    #boton-iniciar{
+        position: relative;
+        top: 15px;
+        left: 55px;
+    }
+    #tienes-cuenta-is{
+    
+          width: 190px;
+          left: 10px;
+
+        }
+        .caja-pricipal-iss{
+            background-color: rgb(201, 21, 233, 0.3);
+            display: flex;
+            flex-direction: row;
+            height: 300px;
+            width: 50%;
+            margin: 12% auto 12% auto;
+            border-radius: 20px;
+    
+    }
+}
+
+@media screen and (max-width: 690px){
+    #pregunta-is {
+        width: 150px;
+        left: 30px;
+    }
+    #boton-iniciar{
+        position: relative;
+        top: 15px;
+        left: 55px;
+    }
+    #tienes-cuenta-is{
+       
+          width: 170px;
+          left: 10px;
+    }
+    #text{
+        font-size: x-small;
+        
+    }
+
+}
+
+
+
+/* celular */
+
+
+
+
+
+@media screen and (max-width: 640px){
+
+    .caja-pricipal-iss{
+        background-color: rgb(201, 21, 233, 0.3);
+        display: flex;
+    
+        height: 400px;
+        width: 50%;
+        margin: 12% auto 12% auto;
+        border-radius: 20px;
+    }
+
+    #redes-is{
+
+        background-color: chartreuse;  
+        height: 20%;
+        width: 80%;
+        margin-left: 17px;
+        position: relative;
+        left: 15px;
+        top: 240px;
+        border-right:2px solid rgba(55, 55, 192, 0.0);
+    }
+    
+    /* Opción para usar tus redes */
+    #titulo-redes-is{
+      background-color: crimson;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        width: 50%;
+        color: antiquewhite;
+        font-size: x-small;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* caja con las distinatas redes */
+    
+    #redesociales-is{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(41, 177, 157);  
+        height: 60%;
+        width:100%;
+
+    }
+    
+    #redesociales-is a{
+        text-decoration: none;
+      /*  color: rgb(86, 41, 41); */ 
+    }
+    
+    /* Botón twitter  */
+    
+    #twitter-is{
+        background-color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        width: 32%;
+        border-radius: 7px;
+        font-size: small;
+        position: relative;
+        top: 15px;
+       
+    }
+    
+
+    /* Botón google  */
+    #google-is{
+        background-color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        width: 32%;
+        font-size: small;
+        border-radius: 7px;
+
+    }
+    
+
+    
+    /* Botón github  */
+    #github-is{
+        background-color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        width: 32%;
+        font-size: small;
+        border-radius: 7px;
+
+    }
+
+    
+    /* Caja principal derecha */
+    .caja-princ-der{
+    
+        height: 90%;
+        width: 90%;
+        margin-left: -252px;
+        margin-top: 23px;
+    }
+    /* Caja con mail y contraseña */
+    .caja-mailycontrseña-is{
+        height: 100%;
+        width: 100%;
+       
+    
+    }
+    /* Input del mail */
+    #email-is{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 80%;
+        margin: 15px auto 0px auto;
+        border-radius: 7px;
+        border: none;
+        caret-color: rgb(123, 6, 99);
+        outline: none;    
+        position: relative;
+        left: 15px;
+    
+    }
+    
+    /* Input de la contraseña */
+    #contraseña-is{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 80%;
+        margin: 15px auto 0px auto;
+        border-radius: 7px;
+        border: none;
+        caret-color: rgb(123, 6, 99);
+        outline: none;  
+        position: relative;
+        left: 15px;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 90px;
+        height: 30px;
+        width: 100px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(255, 0, 166);
+    
+    } 
+    
+
+    
+    
+    /* Pregunta  */
+    
+    #pregunta-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      /*   background-color: aqua; */
+        height: 30px;
+        width: 70%;
+        position: relative;
+        top: -200px;
+        left: 40px;
+        border-bottom: 2px solid rgba(55, 55, 192, 0.816);
+        border-top: 2px solid rgba(55, 55, 192, 0.0);
+    }
+    
+
+    
+    
+    /* caja ya ¿tienes cuenta? */
+    
+    #tienes-cuenta-is{
+    /*     background-color: coral; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 70%;
+        height: 50px;
+        position: relative;
+        top: -100px;
+        left: 50px;
+        color: #ffffff;
+    }
+    /* Boton registrate */
+    #registrate-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 0, 166);
+        height: 30px;
+        width: 100px;
+        border-radius: 7px;
+        margin-left: 20px;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 600px){
+    
+    /* Pregunta  */
+    
+    #pregunta-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      /*   background-color: aqua; */
+        height: 30px;
+        width: 70%;
+        position: relative;
+        top: -200px;
+        left: 55px;
+        border-bottom: 2px solid rgba(55, 55, 192, 0.816);
+        border-top: 2px solid rgba(55, 55, 192, 0.0);
+    }
+        
+}
+
+
+
+@media screen and (max-width: 570px){
+
+    /* Opción para usar tus redes */
+    #titulo-redes-is{
+        background-color: crimson;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 20%;
+          width: 70%;
+          color: antiquewhite;
+          font-size: x-small;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+
+    /* Input del mail */
+    #email-is{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 80%;
+        margin: 15px auto 0px auto;
+        border-radius: 7px;
+        border: none;
+        caret-color: rgb(123, 6, 99);
+        outline: none;    
+        position: relative;
+        left: 25px;
+    
+    }
+    
+    /* Input de la contraseña */
+    #contraseña-is{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 80%;
+        margin: 15px auto 0px auto;
+        border-radius: 7px;
+        border: none;
+        caret-color: rgb(123, 6, 99);
+        outline: none;  
+        position: relative;
+        left: 25px;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 100px;
+        height: 30px;
+        width: 100px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(255, 0, 166);
+    
+    } 
+    
+
+    
+    
+    /* Pregunta  */
+    
+    #pregunta-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      /*   background-color: aqua; */
+        height: 30px;
+        width: 70%;
+        position: relative;
+        top: -200px;
+        left: 60px;
+        border-bottom: 2px solid rgba(55, 55, 192, 0.816);
+        border-top: 2px solid rgba(55, 55, 192, 0.0);
+    }
+        
+    
+    /* caja ya ¿tienes cuenta? */
+    
+    #tienes-cuenta-is{
+       background-color: coral; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: -100px;
+        left: 40px;
+        color: #ffffff;
+    }
+    /* Boton registrate */
+    #registrate-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 0, 166);
+        height: 30px;
+        width: 100px;
+        border-radius: 7px;
+        margin-left: 20px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 558px){
+    
+    /* caja ya ¿tienes cuenta? */
+    
+    #tienes-cuenta-is{
+       background-color: coral; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: -100px;
+        left: 50px;
+        color: #ffffff;
+    }
+    /* Boton registrate */
+    #registrate-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 0, 166);
+        height: 30px;
+        width: 100px;
+        border-radius: 7px;
+        margin-left: 10px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 538px){
+    #redes-is{
+
+        background-color: chartreuse;  
+        height: 20%;
+        width: 80%;
+        margin-left: 17px;
+        position: relative;
+        left: 10px;
+        top: 240px;
+        border-right:2px solid rgba(55, 55, 192, 0.0);
+    }
+
+
+
+
+    /* Input del mail */
+    #email-is{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 80%;
+        margin: 15px auto 0px auto;
+        border-radius: 7px;
+        border: none;
+        caret-color: rgb(123, 6, 99);
+        outline: none;    
+        position: relative;
+        left: 35px;
+    
+    }
+    
+    /* Input de la contraseña */
+    #contraseña-is{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 80%;
+        margin: 15px auto 0px auto;
+        border-radius: 7px;
+        border: none;
+        caret-color: rgb(123, 6, 99);
+        outline: none;  
+        position: relative;
+        left: 35px;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 100px;
+        height: 30px;
+        width: 100px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(255, 0, 166);
+    
+    } 
+    
+
+    
+    
+    /* Pregunta  */
+    
+    #pregunta-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      /*   background-color: aqua; */
+        height: 30px;
+        width: 70%;
+        position: relative;
+        top: -200px;
+        left: 70px;
+        border-bottom: 2px solid rgba(55, 55, 192, 0.816);
+        border-top: 2px solid rgba(55, 55, 192, 0.0);
+    }
+        
+    
+    /* caja ya ¿tienes cuenta? */
+    
+    #tienes-cuenta-is{
+       background-color: coral; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: -100px;
+        left: 50px;
+        color: #ffffff;
+    }
+    /* Boton registrate */
+    #registrate-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 0, 166);
+        height: 30px;
+        width: 100px;
+        border-radius: 7px;
+        margin-left: 20px;
+    }
+    
+
+}
+
+
+
+
+@media screen and (max-width: 525px){
+
+    #redes-is{
+
+        background-color: chartreuse;  
+        height: 20%;
+        width: 90%;
+        margin-left: 17px;
+        position: relative;
+        left: -5px;
+        top: 240px;
+        border-right:2px solid rgba(55, 55, 192, 0.0);
+    }
+
+    /* Input del mail */
+    #email-is{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 80%;
+        margin: 15px auto 0px auto;
+        border-radius: 7px;
+        border: none;
+        caret-color: rgb(123, 6, 99);
+        outline: none;    
+        position: relative;
+        left: 15px;
+    
+    }
+    
+    /* Input de la contraseña */
+    #contraseña-is{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 80%;
+        margin: 15px auto 0px auto;
+        border-radius: 7px;
+        border: none;
+        caret-color: rgb(123, 6, 99);
+        outline: none;  
+        position: relative;
+        left: 15px;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 80px;
+        height: 30px;
+        width: 90px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(255, 0, 166);
+    
+    } 
+    
+
+    
+    
+    /* Pregunta  */
+    
+    #pregunta-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      /*   background-color: aqua; */
+        height: 30px;
+        width: 70%;
+        position: relative;
+        top: -200px;
+        left: 50px;
+        border-bottom: 2px solid rgba(55, 55, 192, 0.816);
+        border-top: 2px solid rgba(55, 55, 192, 0.0);
+    }
+        
+    
+    /* caja ya ¿tienes cuenta? */
+    
+    #tienes-cuenta-is{
+       background-color: coral; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: -100px;
+        left: 30px;
+        color: #ffffff;
+    }
+    /* Boton registrate */
+    #registrate-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 0, 166);
+        height: 30px;
+        width: 90px;
+        border-radius: 7px;
+        margin-left: 20px;
+        font-size: small;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 500px){
+
+    /* Input del mail */
+    #email-is{
+  
+        position: relative;
+        left: 27px;
+    
+    }
+    
+    /* Input de la contraseña */
+    #contraseña-is{
+        position: relative;
+        left: 27px;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 90px;
+        
+    
+    } 
+    
+
+    /* Pregunta  */
+    
+    #pregunta-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      /*   background-color: aqua; */
+        height: 30px;
+        width: 70%;
+        position: relative;
+        top: -200px;
+        left: 57px;
+        border-bottom: 2px solid rgba(55, 55, 192, 0.816);
+        border-top: 2px solid rgba(55, 55, 192, 0.0);
+    }
+        
+    
+    /* caja ya ¿tienes cuenta? */
+    
+    #tienes-cuenta-is{
+       background-color: coral; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: -100px;
+        left: 40px;
+        color: #ffffff;
+    }
+    /* Boton registrate */
+    #registrate-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 0, 166);
+        height: 30px;
+        width: 90px;
+        border-radius: 7px;
+        margin-left: 5px;
+        font-size: small;
+    }
+    #text{
+        font-size: x-small;
+        background-color: aqua;
+    }
+
+}
+
+
+@media screen and (max-width: 490px){
+
+    .caja-pricipal-iss{
+        background-color: rgb(201, 21, 233, 0.3);
+        display: flex;
+    
+        height: 400px;
+        width: 60%;
+        margin: 12% auto 12% auto;
+        border-radius: 20px;
+    }
+
+
+
+    /* Input del mail */
+    #email-is{
+  
+        position: relative;
+        left: -10px;
+    
+    }
+    
+    /* Input de la contraseña */
+    #contraseña-is{
+        position: relative;
+        left: -10px;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 90px;
+        
+    
+    } 
+    
+
+    /* Pregunta  */
+    
+    #pregunta-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua; 
+        height: 30px;
+        width: 75%;
+        position: relative;
+        top: -200px;
+        left:  25px;
+        border-bottom: 2px solid rgba(55, 55, 192, 0.816);
+        border-top: 2px solid rgba(55, 55, 192, 0.0);
+        font-size: x-small;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 75px;
+        height: 30px;
+        width: 90px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(255, 0, 166);
+    
+    } 
+    
+    /* caja ya ¿tienes cuenta? */
+    
+    #tienes-cuenta-is{
+       background-color: coral; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: -100px;
+        left: 5px;
+        color: #ffffff;
+    }
+    /* Boton registrate */
+    #registrate-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 0, 166);
+        height: 30px;
+        width: 90px;
+        border-radius: 7px;
+        margin-left: 10px;
+        font-size: small;
+    }
+    #text{
+        font-size: x-small;
+        background-color: aqua;
+    }
+
+}
+
+@media screen and (max-width: 470px){
+
+    .caja-pricipal-iss{
+        background-color: rgb(201, 21, 233, 0.3);
+        display: flex;
+    
+        height: 400px;
+        width: 60%;
+        margin: 12% auto 12% auto;
+        border-radius: 20px;
+    }
+
+
+
+    /* Input del mail */
+    #email-is{
+  
+        position: relative;
+        left: 5px;
+        width: 240px;
+    }
+    
+    /* Input de la contraseña */
+    #contraseña-is{
+        position: relative;
+        left: 5px;
+        width: 240px;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 90px;
+        
+    
+    } 
+    
+
+    /* Pregunta  */
+    
+    #pregunta-is{
+
+        background-color: aqua; 
+        height: 30px;
+        width: 75%;
+        position: relative;
+        top: -200px;
+        left:  30px;
+        border-bottom: 2px solid rgba(55, 55, 192, 0.816);
+        border-top: 2px solid rgba(55, 55, 192, 0.0);
+        font-size: x-small;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 75px;
+        height: 30px;
+        width: 90px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(255, 0, 166);
+    
+    } 
+    
+    /* caja ya ¿tienes cuenta? */
+    
+    #tienes-cuenta-is{
+       background-color: coral; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: -100px;
+        left: 15px;
+        color: #ffffff;
+    }
+    /* Boton registrate */
+    #registrate-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 0, 166);
+        height: 30px;
+        width: 90px;
+        border-radius: 7px;
+        margin-left: 10px;
+        font-size: small;
+    }
+    #text{
+        font-size: x-small;
+        background-color: aqua;
+    }
+
+}
+
+
+@media screen and (max-width: 460px){
+
+    .caja-pricipal-iss{
+        background-color: rgb(201, 21, 233, 0.3);
+        display: flex;
+    
+        height: 400px;
+        width: 70%;
+        margin: 12% auto 12% auto;
+        border-radius: 20px;
+    }
+
+
+
+    /* Input del mail */
+    #email-is{
+  
+        position: relative;
+        left: 5px;
+        width: 240px;
+    }
+    
+    /* Input de la contraseña */
+    #contraseña-is{
+        position: relative;
+        left: 5px;
+        width: 240px;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 90px;
+        
+    
+    } 
+    
+
+    /* Pregunta  */
+    
+    #pregunta-is{
+
+        background-color: aqua; 
+        height: 30px;
+        width: 75%;
+        position: relative;
+        top: -200px;
+        left:  30px;
+        border-bottom: 2px solid rgba(55, 55, 192, 0.816);
+        border-top: 2px solid rgba(55, 55, 192, 0.0);
+        font-size: x-small;
+    }
+    /* Boton para iniciar sesión */
+    #boton-iniciar{
+        position: relative;
+        top: 25px;
+        left: 75px;
+        height: 30px;
+        width: 90px;
+        border-radius: 7px;
+        border: none;
+        background-color: rgb(255, 0, 166);
+    
+    } 
+    
+    /* caja ya ¿tienes cuenta? */
+    
+    #tienes-cuenta-is{
+       background-color: coral; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: -100px;
+        left: 15px;
+        color: #ffffff;
+    }
+    /* Boton registrate */
+    #registrate-is{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 0, 166);
+        height: 30px;
+        width: 90px;
+        border-radius: 7px;
+        margin-left: 10px;
+        font-size: small;
+    }
+    #text{
+        font-size: x-small;
+        background-color: aqua;
+    }
+
+}

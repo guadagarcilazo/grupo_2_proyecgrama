@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     /*   color de fondo */
       background: linear-gradient(to bottom, rgb(115, 0, 255), white);
@@ -6,7 +6,7 @@ body{
       overflow-y: hidden;
       overflow-x: hidden;
       /* fuente */
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: 'Roboto', sans-serif;
   
   }
   
@@ -98,6 +98,8 @@ body{
       width: 250px;
       border-radius: 7px;
       border: none;
+      caret-color: rgb(123, 6, 99);
+      outline: none;  
   
   }
   /* titulo "correo" para el input de correo */
@@ -116,6 +118,8 @@ body{
       width: 250px;
       border-radius: 7px;
       border: none;
+      caret-color: rgb(123, 6, 99);
+      outline: none;  
   }
   
   
@@ -135,6 +139,8 @@ body{
       width: 250px;
       border-radius: 7px;
       border: none;
+      caret-color: rgb(123, 6, 99);
+      outline: none;  
   }
   
   /* titulo "apellido" para el input de apellido */
@@ -154,6 +160,8 @@ body{
       width: 250px;
       border-radius: 7px;
       border: none;
+      caret-color: rgb(123, 6, 99);
+      outline: none;  
   }
   
   
@@ -173,6 +181,8 @@ body{
       width: 250px;
       border-radius: 7px;
       border: none;
+      caret-color: rgb(123, 6, 99);
+      outline: none;  
   }
   
   
@@ -192,6 +202,8 @@ body{
       width: 250px;
       border-radius: 7px;
       border: none;
+      caret-color: rgb(123, 6, 99);
+      outline: none;  
   }
   
   
@@ -210,11 +222,7 @@ body{
       text-decoration: none;
       color: #ffffff;
   }
-  #sugerencia a:hover{
-      text-decoration: none;
-      color: rgb(18, 175, 219);
-  }
-  
+
   
   /* Caja con las redes sociales como twitter, google y github */
   
@@ -222,7 +230,6 @@ body{
       display: flex;
       justify-content: center;
       align-items: center;
-  /*     background-color: black; */
       height: 50px;
       width: 60%;
       position: relative;
@@ -236,58 +243,101 @@ body{
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: gray;
+      background-color: #eee;
       height: 30px;
       width: 30%;
       margin-right: 10px;
       border-radius: 7px;
+      font-weight: bold;
   }
   #twitter a{
       text-decoration: none;
-      color: #ffffff;
-  }
-  #twitter a:hover{
-      text-decoration: none;
       color: rgb(155, 18, 219);
   }
+  #twitter a:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      text-decoration: none;
+      background-color: rgb(155, 18, 219);
+      height: 30px;
+      width: 100%;
+      color: #ffffff;
+      border-radius: 7px;
+      
+  }
+
+  #twitter-logo{
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
   /* Botón google */
   #google{
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: gray;
+      background-color: #eee;
       height: 30px;
       width: 30%;
       border-radius: 7px;
+      font-weight: bold;
   }
   #google a{
       text-decoration: none;
-      color: #ffffff;
-  }
-  #google a:hover{
-      text-decoration: none;
       color: rgb(155, 18, 219);
   }
+  #google a:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      text-decoration: none;
+      background-color: rgb(155, 18, 219);
+      height: 30px;
+      width: 100%;
+      color: #ffffff;
+      border-radius: 7px;
+  }
+
+  #google-logo{
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
   /* Botón google */
   #github{
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: gray;
+      background-color: #eee;
       height: 30px;
       width: 30%;
       margin-left: 10px;
       border-radius: 7px;
+      font-weight: bold;
   }
   
   #github a{
       text-decoration: none;
-      color: #ffffff;
-  }
-  #github a:hover{
-      text-decoration: none;
       color: rgb(155, 18, 219);
   }
+  #github a:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      text-decoration: none;
+      background-color: rgb(155, 18, 219);
+      height: 30px;
+      width: 100%;
+      color: #ffffff;
+      border-radius: 7px;
+  }
+
+  #github-logo{
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
   
   /* checkbox */
   #aceptar{
@@ -310,10 +360,10 @@ body{
   }
   #condiciones a:hover{
       text-decoration: none;
-      color: rgb(18, 175, 219);
+      color: rgb(155, 18, 219);
   }
   /* Boton registrate */
-  #boton-registrate{
+   #boton-registrate{
       position: relative;
       top: -115px;
       left: 37px;
@@ -330,7 +380,8 @@ body{
       color: rgb(255, 0, 166);
      
   }
-  
+
+
   
   /*  pregunta y boton para iniciar sesión   */
   
@@ -379,3 +430,5 @@ body{
       width: 100%;
       border-radius: 7px;
   }
+
+

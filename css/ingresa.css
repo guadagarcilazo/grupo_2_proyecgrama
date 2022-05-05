@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
-    /*   color de fondo */
-    background: rgb(115, 0, 255);
+       /*   color de fondo */
+       background: linear-gradient(to bottom, rgb(103, 19, 107), white);
+       background-attachment: fixed;
     /* saca el scroll de la pesataña */
     overflow-y: hidden;
     overflow-x: hidden;
     /* fuente */
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 /* Caja pricipal del formulario */
 .caja-pricipal-iss{
-    background-color: rgb(255, 182, 11);
+    background-color: rgb(201, 21, 233, 0.3);
     display: flex;
     flex-direction: row;
     height: 300px;
@@ -25,7 +28,7 @@ body{
     margin-left: 17px;
     position: relative;
     top: 30px;
-    border-right: 3px solid blue;
+    border-right:2px solid rgba(55, 55, 192, 0.816);
 }
 
 /* Opción para usar tus redes */
@@ -69,6 +72,20 @@ body{
     margin-right: auto;
    
 }
+
+
+#twitter-logo{
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
+
+#twitter-is:hover{
+    background-color: rgb(155, 18, 219);
+    height: 20%;
+    width: 80%;
+    color: #ffffff;
+}
 /* Botón google  */
 #google-is{
     background-color: #eee;
@@ -81,6 +98,18 @@ body{
     border-radius: 7px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#google-logo{
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
+#google-is:hover{
+    background-color: rgb(155, 18, 219);
+    height: 20%;
+    width: 80%;
+    color: #ffffff;
 }
 
 /* Botón github  */
@@ -96,10 +125,22 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+#github-logo{
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
+
+#github-is:hover{
+    background-color: rgb(155, 18, 219);
+    height: 20%;
+    width: 80%;
+    color: #ffffff;
+}
 
 /* Caja principal derecha */
 .caja-princ-der{
-  /*   background-color: rgb(111, 17, 17); */
+/* background-color: black; */
     height: 80%;
     width: 60%;
     margin-left: 15px;
@@ -120,8 +161,11 @@ body{
     margin: 15px auto 0px auto;
     border-radius: 7px;
     border: none;
+    caret-color: rgb(123, 6, 99);
+    outline: none;    
 
 }
+
 /* Input de la contraseña */
 #contraseña-is{
     display: flex;
@@ -131,6 +175,8 @@ body{
     margin: 15px auto 0px auto;
     border-radius: 7px;
     border: none;
+    caret-color: rgb(123, 6, 99);
+    outline: none;  
 }
 /* Boton para iniciar sesión */
 #boton-iniciar{
@@ -141,7 +187,28 @@ body{
     width: 100px;
     border-radius: 7px;
     border: none;
+    background-color: rgb(255, 0, 166);
+
+} 
+
+#boton-iniciar{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
+
+
+#boton-iniciar:hover{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 0, 166);
+    transition: 1s;
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+}
+
 
 /* Pregunta  */
 
@@ -149,19 +216,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+  /*   background-color: aqua; */
     height: 30px;
     width: 70%;
     position: relative;
     top: -105px;
     left: 50px;
-    border-top: 3px solid blue;
+    border-top: 2px solid rgba(55, 55, 192, 0.816);
 }
+
+#pregunta-is a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#pregunta-is a:hover{
+    color: rgb(255, 0, 166);
+}
+
 
 /* caja ya ¿tienes cuenta? */
 
 #tienes-cuenta-is{
-    background-color: coral;
+/*     background-color: coral; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,33 +248,34 @@ body{
     position: relative;
     top: -100px;
     left: 50px;
+    color: #ffffff;
 }
-
+/* Boton registrate */
 #registrate-is{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 0, 166);
-    height: 35px;
-    width: 110px;
+    height: 30px;
+    width: 100px;
     border-radius: 7px;
     margin-left: 20px;
 }
 
-#registrate-is a{
+#registrate-is{
     text-decoration: none;
     color: #ffffff;
 }
 
 
-#registrate-is a:hover{
+#registrate-is:hover{
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(255, 0, 166);
     transition: 1s;
-    height: 100%;
-    width: 100%;
+    height: 30px;
+    width: 100px;
     border-radius: 7px;
 }

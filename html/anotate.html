@@ -9,6 +9,9 @@
     <title>Anotate-Proyecgrama</title>
 </head>
 <body>
+    <header></header>
+    <nav></nav>
+    <section>
      <!--   Caja que "sombra" a la caja del formulario -->
         <div class="caja-sombra">
             <div id="logo-boton"><a href="index.html" id="logo-hover"><img src="../assets/img/login/logo.png" alt="" height="100%" width="100%"></a></div>
@@ -20,22 +23,22 @@
                 <form>
                     <!-- Nombre -->
                     <h3 id="nombre-titulo">Nombre</h3>
-                   <input type="text"  placeholder="Nombre" required id="nombre">
+                   <input type="text"  placeholder="Nombre" pattern="[A-z-ÁÉÍÓÚÑÜáéíóúñüàè\s]{1,30}" required id="nombre">
                 <!--    Correo -->
                    <h3 id="correo-titulo">Correo electrónico</h3>
-                   <input type="email" placeholder="E-mail" required id="email">
+                   <input type="email" placeholder="E-mail"  required id="email">
                    <!-- Contraseña -->
                    <h3 id="contraseña-titulo">Contraseña</h3>
-                   <input type="password" placeholder="Contraseña" required id="contraseña">
+                   <input type="password" placeholder="Contraseña (8 o más carácteres)"  pattern="[A-z0-9\S.]{8,60}"  required id="contraseña">
                    <!-- Apeliido -->
                    <h3 id="apellido-titulo">Apellido</h3>
-                   <input type="text" placeholder="Contraseña" required id="apellido">   
+                   <input type="text" placeholder="Apellido"  pattern="[A-z-ÁÉÍÓÚÑÜáéíóúñüàè\s]{1,30}" required id="apellido">   
                    <!-- Usuario -->
                    <h3 id="usuario-titulo">Usuario</h3>
                    <input type="text" placeholder="Usuario" required id="usuario">   
                    <!-- Confirma la contraseña -->
                    <h3 id="ccontraseña-titulo">Confirma la contraseña</h3>
-                   <input type="password" placeholder="Confirma la contraseña" required id="ccontraseña"> 
+                   <input type="password" placeholder="Confirma la contraseña" pattern="[A-z0-9\S.]{8,60}" required id="ccontraseña"> <!--  pattern="[A-z0-9\S.]{8,60}" -->
                    <!-- Botón registrate --> 
                    <input type="submit" value="Registrate" id="boton-registrate">
                    <!-- checkbok -->
@@ -47,9 +50,9 @@
                 <div id="sugerencia"><a href="">o usa una de tus redes </a></div>
      <!--  Caja con las redes sociales como twitter, google y github -->
         <div class="caja-redes">
-             <div id="twitter"><a href=""><i class="fa-brands fa-twitter"></i>Twitter</a> </div>
-             <div id="google"><a href=""><i class="fa-brands fa-twitter"></i>google</a> </div>
-             <div id="github"><a href=""><i class="fa-brands fa-twitter"></i>github</a> </div>
+             <div id="twitter"><a href=""><img src="../assets/img/anotate/iconos/gorjeo.png" alt="Icono Twitter"  id="twitter-logo">Twitter</a> </div>
+             <div id="google"><a href=""><img src="../assets/img/anotate/iconos/google.png" alt="Icono Google" id="google-logo">Google</a> </div>
+             <div id="github"><a href=""><img src="../assets/img/anotate/iconos/github.png" alt="Icono Github" id="github-logo">Github</a> </div>
         </div>
             </div>
         </div>
@@ -58,8 +61,10 @@
             <!-- pregunta -->
             <div id="pregunta-is"><p>¿Ya estás registrado?</p></div>
             <div id="boton-is"><a href="../html/ingresa.html">Inicia sesión</a></div>
-
         </div>
-     
+        <script src="../js/anotate.js"></script>
+     </section>
+     <aside></aside>
+     <footer></footer>
 </body>
 </html>
