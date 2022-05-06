@@ -43,12 +43,20 @@ body{
     border-radius: 10px;
     background-color: #C73189;
 }
+.encabezado__anotate:hover{
+    background:linear-gradient(to bottom, #C73189 5%, #a52871c5 100%);
+	background-color:#C73189;
+}
 
 .encabezado__ingresa {
     padding: 10px 30px;
     margin-right: 40px;
     border-radius: 8px;
     background-color: #68BFAB;
+}
+.encabezado__ingresa:hover {
+	background:linear-gradient(to bottom, #68BFAB 5%, #32917bba 100%);
+	background-color:#68BFAB;
 }
 
 /* Estilos del hero */
