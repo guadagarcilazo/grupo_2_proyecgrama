@@ -41,6 +41,7 @@ body{
     width: 70px;
     height: 70px;
     margin-right: 600px;
+    visibility: hidden;
 }
 
 .encabezado__anotate {
