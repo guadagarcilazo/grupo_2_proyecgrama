@@ -90,12 +90,12 @@ a {
     width: 700px;
     height: 450px;
     border-radius: 25px;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
         ),  
-        url('../assets/img/curso-html/portada-video.png');
+        url('../assets/img/curso-html/portada-video.png'); */
     background-size: cover;
 }
 
