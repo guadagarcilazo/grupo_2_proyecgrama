@@ -10,15 +10,58 @@ body{
     /* fuente */
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* Caja sombra */
+.caja-sombra{
+    background-color: rgba(21, 201, 233, 0.3);
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 45%;
+    border-radius: 20px;
+    position: relative;
+    top: 223.5px;
+    left: 320px;
+}
+
+  /* Botón/logo que me lleva al index */
+  
+#logo-boton{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    width: 120px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    
+}
+#logo-hover:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(156, 41, 201);
+    border-radius: 100px;
+ 
+    }
+
+
 /* Caja pricipal del formulario */
 .caja-pricipal-iss{
-    background-color: rgb(201, 21, 233, 0.3);
+    background-color: rgb(201, 21, 233);
     display: flex;
     flex-direction: row;
     height: 300px;
     width: 45%;
     margin: 12% auto 12% auto;
     border-radius: 20px;
+    position: relative;
+    top: -260px;
+    left: 80px;
+    z-index: 2;
 }
 
 #redes-is{
