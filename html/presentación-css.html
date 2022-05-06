@@ -110,16 +110,33 @@
         </div>
     </section>
 
+    <section class="valoracion">
+        <h2 class="subtitle">Dejanos tu comentario</h2>
+        <form class="valoracion__form">
+            <h4 class="valoracion__subtitle">Valoración:</h4>
+            <div class="valoracion__star-content">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <h4 class="valoracion__subtitle">Comentario:</h4>
+            <textarea class="valoracion__comment" cols="55" rows="10" placeholder="Dejanos tu opinión..."></textarea>
+            <input class="valoracion__submit" type="submit" value="Enviar">
+        </form>
+    </section>
+
     <section>
            <div class="contenedor4">
                <div class="title4">
                    <h2>Preguntas frecuentes</h2>
                </div>
                <div class="preguntas">
-                   <div class="p1">¿Necesito saber algo de programación antes de iniciar el curso?
+                   <div class="pregunta">¿Necesito saber algo de programación antes de iniciar el curso?
                 </div>
-                   <div class="p2">¿Las clases serán grabadas?</div>
-                   <div class="p3">¿Qué editor de texto utilizaremos?</div>
+                   <div class="pregunta">¿Las clases serán grabadas?</div>
+                   <div class="pregunta">¿Qué editor de texto utilizaremos?</div>
                </div>
            </div>
 
@@ -130,47 +147,60 @@
                 <div class="title5">
                  <h2>Sumate a esta gran experiencia</h2>
                 </div>
-                <div class="button">
+                <div class="myButton">
                     <a href="./anotate.html">Anotate</a>
                 </div>
             </div>
     </section>
 
 
-    <footer>
-        <div class="contenedor6">
-            <div class="contenedor7">
-                <div class="caja3">
-                    <h3 id="tittle">Dónde estamos</h3>
-                    <ul>
-                        <li><img src="../recursos/footer/img/ubicacion.png" alt="ubicacion"> Avenida Brasil 3164, Buenos Aires, Argentina</li>
-                        <li><img src="../recursos/footer/img/correo-electronico-vacio.png" alt="email">  email@arbusta.net</li>
-                        <li><img src="../recursos/footer/img/llamada-telefonica.png" alt="telefono">  +54 9 11 6965-2612</li>
-                    </ul>
-                </div>
-                <div class="caja4">
-                    <h3 id="tittle">Redes</h3>
-                    <a href="https://www.facebook.com/arbustait/" target="_blank">
-                        <img src="../recursos/footer/img/facebook-app-symbol.png" alt="facebook"></a>
-                    <a href="https://www.instagram.com/arbustait/" target="_blank">
-                        <img src="../recursos/footer/img/instagram.png" alt="instagram"></a>
-                    <a href="https://twitter.com/arbustait?lang=es" target="_blank">
-                        <img src="../recursos/footer/img/twitter.png" alt="twitter"></a>
-                    <a href="https://www.youtube.com/channel/UConMZKNNPE9Qbsh0HZS5WFQ" target="_blank">
-                        <img src="../recursos/footer/img/youtube.png" alt="youtube"></a>
-                    <a href="https://github.com/guadagarcilazo/grupo_2_proyecgrama" target="_blank">
-                        <img src="../recursos/footer/img/github.png" alt="github"></a>
-                    <a href="https://discord.com/channels/939255988261879861/939255988710678558" target="_blank">
-                        <img src="../recursos/footer/img/discord.png" alt="discord"></a>
-                </div>
+
+    <footer class="footer">
+        <div class="footer__info">
+            <div>
+                <h3 class="footer__title">Dónde estamos</h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <img class="footer__img" src="../assets/img/curso-html/icon-ubicacion.png" alt="ubicacion">
+                        Avenida Brasil 3164, Buenos Aires, Argentina
+                    </li>
+                    <li class="footer__item">
+                        <img class="footer__img" src="../assets/img/curso-html/icon-correo.png" alt="email">  email@arbusta.net
+                    </li>
+                    <li class="footer__item">
+                        <img class="footer__img" src="../assets/img/curso-html/icon-tel.png" alt="telefono">
+                        +54 9 11 6965-2612
+                    </li>
+                </ul>
             </div>
-    
-            <div class="map">
-                
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13131.168941540422!2d-58.408841!3d-34.6346903!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8eb54bf5c6fcf1e!2sArbusta%20S.R.L!5e0!3m2!1ses!2sar!4v1650979661851!5m2!1ses!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="footer__redes">
+                <h3 class="footer__title">Redes</h3>
+                <div>
+                    <a href="https://www.facebook.com/arbustait/" target="_blank">
+                        <img class="footer__img" src="../assets/img/curso-html/icon-facebook.png" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/arbustait/" target="_blank">
+                        <img class="footer__img" src="../assets/img/curso-html/icon-instagram.png" alt="instagram">
+                    </a>
+                    <a href="https://twitter.com/arbustait?lang=es" target="_blank">
+                        <img class="footer__img" src="../assets/img/curso-html/icon-twitter.png" alt="twitter">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UConMZKNNPE9Qbsh0HZS5WFQ" target="_blank">
+                        <img class="footer__img" src="../assets/img/curso-html/icon-youtube.png" alt="youtube">
+                    </a>
+                    <a href="https://github.com/guadagarcilazo/grupo_2_proyecgrama" target="_blank">
+                        <img class="footer__img" src="../assets/img/curso-html/icon-github.png" alt="github">
+                    </a>
+                    <a href="https://discord.com/channels/939255988261879861/939255988710678558" target="_blank">
+                        <img class="footer__img" src="../assets/img/curso-html/icon-discord.png" alt="discord">
+                    </a>
+                </div>
             </div>
         </div>
-    
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13131.168941540422!2d-58.408841!3d-34.6346903!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8eb54bf5c6fcf1e!2sArbusta%20S.R.L!5e0!3m2!1ses!2sar!4v1650979661851!5m2!1ses!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </footer>
 
     <script src="../js/presentacion-css.js"></script>

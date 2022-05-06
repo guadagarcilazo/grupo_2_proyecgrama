@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-}
+
 body {
     overflow-x: hidden;
 }
@@ -35,12 +31,7 @@ body {
 .encabezado__link {
     color: white;
     text-decoration: none;
-}
-
-.logo {
-    width: 70px;
-    height: 70px;
-    margin-right: 600px;
+    font-weight: 700;
 }
 
 .encabezado__anotate {
@@ -106,6 +97,7 @@ body {
 .logo {
     width: 70px;
     height: 70px;
+    margin-right: 600px;
 }
 
 .avatar {
@@ -146,14 +138,13 @@ body {
     width: 700px;
     height: 450px;
     border-radius: 25px;
-    /* background-image: url(../assets/img/presentacion-js/image\ \(4\).png); */
+  /*   background-image: url(../assets/img/curso-html/portada-video.png); */
     background-size: cover;
 }
 
-#videos-js-class{
+#video-class-html5{
     border-radius: 20px;
     border: none;
-
 }
 
 .hero__title {
@@ -179,6 +170,7 @@ body {
     font-size: 1.2em;
     color: #fff;
     list-style: none;
+    margin-top: 19px;
 }
 
 .hero__item {
@@ -199,18 +191,18 @@ body {
 .caja2 {
        /* background-color: #6D348A; */
        width: 70%;
-       height: 600px;
+       height: 100px;
 }
 
 .title2 {
     background: linear-gradient(90deg,#6D348A 12%,#68BFAB 78%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 50px;
+    color: transparent;
+    font-size: 64px;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 130px;
 }
-
 
 .contenido2 {
    /*  background-color: aquamarine; */
@@ -218,39 +210,43 @@ body {
     height: 600px;
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
 .descripcion {
-    margin-top: 70px;
-    margin-left: 200px;
-    width: 60%;
-    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 70%;
+    font-size: 24px;
+    line-height: 35px;
 }
 
 .lista2 {
     margin-top: 20%;
-    font-size: 22px;
+    font-size: 24px;
 }
 .list {
-    margin-top: 20px;
+    margin-top: 33px;
 }
 
 ul li {
     list-style: none;
+}
+.css {
+    color: #6D348A;
 }
 
 /* Parte del Ejemplo de html */
 
 .contenedor3 {
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-color: #EFEFEF;
-    
+    padding: 50px;
 }
 .title3 {
-    padding-top: 70px;
-    width: 60%;
-    height: 150px;
-    margin-left: 340px; 
+    width: 90%;
+    height: 200px;
+    margin-left: 99px; 
     display: flex;
     justify-content: center;
 }
@@ -259,16 +255,17 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    font-size: 40px;
+    font-size: 64px;
 }
 .example {
-    padding-top: 50px;
-    width: 60%;
+    padding-top: 20px;
+    width: 70%;
     height: 500px; 
-    margin-left: 36%; 
+    margin-left: 360px; 
+    
 }
 .ejemplo {
-    width: 56%;
+    width: 80%;
     height:100%;
     border-radius: 40px;
 }
@@ -283,34 +280,100 @@ h2 {
 }
 .title4, .title5 {
     /* background-color: #381027; */
-    width: 60%;
-    height: 150px;
-    margin-left: 300px;
+    width: 70%;
+    height: 190px;
+    margin-left: 240px;
     display: flex;
     justify-content: center;
 }
 .preguntas {
-    background-color: #1d8d76;
+    /* background-color: #1d8d76; */
     width: 60%;
-    height: 300px;
-    margin-left: 300px;
+    height: 200px;
+    margin-left: 320px;
     margin-top: 40px;
+    
 }
-.p1, .p2, .p3 {
+.pregunta {
     background: rgb(199,49,137);
 background: linear-gradient(90deg, rgba(199,49,137,1) 0%, rgba(90,26,184,1) 65%, rgba(42,28,86,1) 100%);
     width: 100%;
-    height: 100px;
+    height: 80px;
     border-top: 1px solid rgb(0, 0, 0);
-    padding: 40px;
+    padding: 35px;
     color: #ffff;
+    border-radius: 10px;
 }
+
+/* Sección comentarios */
+
+.valoracion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+}
+
+.valoracion__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.valoracion__form * {
+    margin: 0;
+}
+
+.valoracion__subtitle {
+    font-weight: 400;
+}
+
+.valoracion__star-content i {
+    font-size: 1.5em;
+    color:#6D348A;
+}
+
+.valoracion__comment {
+    padding: 10px;
+    font-family: inherit;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.valoracion__comment:focus {
+    outline: 2px solid #6D348A;
+}
+
+.valoracion__submit {
+    align-self: flex-end;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color:#6D348A;
+    border: none;
+    border-radius: 5px;
+}
+
+.valoracion__submit:hover {
+    cursor: pointer;
+    background-color: rgba(109, 52, 137, 0.9);
+}
+
+
 /* Anotate */
 
 .contenedor5 {
     background-color: #EFEFEF;
     width: 100%;
-    height: 300px;
+    height: 400px;
     padding: 50px;
 }
 
@@ -320,94 +383,81 @@ a {
     align-items: center;
 }
 
-.button {
-    font-size:18px;
-    width:130px;
-    height:40px;
-    border-width:1px;
-    color:#fff;
-    border-color:rgba(255, 255, 255, 1);
-    font-weight:bold;
-    border-top-left-radius:13px;
-    border-top-right-radius:13px;
-    border-bottom-left-radius:13px;
-    border-bottom-right-radius:13px;
-    text-shadow: 1px 1px 0px rgba(101, 102, 101, 1);
-    background:rgba(104, 191, 171, 1);
-    display: flex;
-    justify-content: center;
-    padding: 9px;
-    margin-left: 660px;
-  }
-  
-  .button:hover {
-    background: rgba(99, 175, 158, 1)
-  }
+.myButton {
+	box-shadow: 0px 10px 14px -7px #3e7367;
+	background:linear-gradient(to bottom, #68BFAB 5%, #68BFAB 100%);
+	background-color:#68BFAB;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Inter', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 39px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #68BFAB;
+    margin-left: 630px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5fc4ac 5%, #41ba9e 100%);
+	background-color:#68BFAB;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
 /* Footer */
 
-img {
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    color: white;
+    background-color: #595959;
+}
+
+.footer__img {
     height: 20px;
     width: 20px;
-    margin-right: 25px;
-    }
-    
-    /* Lista del contacto */
-    ul li {
-        list-style-type: none;
-        font-family: 'Inter', sans-serif;
-    }
-    
-    /* Cajas divivdidas para dar la forma */
-    .contenedor6 {
-        background-color: #595959;
-        width: 100%;
-        height: 450px;
-        display: flex;
-        color: white;
-    }
-    
-    .contenedor7 {
-        /* background-color: aqua; */
-        width: 50%;
-        height: 100%;
-        margin-left: 70px;
-    }
-    
-    .caja3 {
-     /*    background-color: black; */
-        width: 60%;
-        height: 50%;
-        padding: 40px 0px 0px 40px;
-        margin-left: 40px;
-    }
-    .caja3 img {
-        margin-right: 20px;
-    
-    }
-    .caja4 {
-        /* background-color: rgb(241, 20, 20); */
-        width: 80%;
-        height: 50%;
-        padding: 60px 0px 0px 40px;
-        margin-left: 40px;
-    }
-    .tittle {
-       margin-bottom: 40px;
-        background: linear-gradient(#776CF9,#68BFAB);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: transparent;
-        font-family: 'Inter', sans-serif;
-        font-size: 28px;
-    }
-    
-    
-    /* El mapa de la empresa */
-    .map {
-        /* background-color: rgb(19, 53, 248); */
-        width: 30%;
-        height: 60%;
-        margin-left: 60px;
-        margin-top: 45px;
-    }
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__redes div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__title {
+    font-size: 28px;
+    color: transparent;
+    background: linear-gradient(#776CF9,#68BFAB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.map {
+    width: 30vw;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 0.9em;
+    list-style-type: none;
+}

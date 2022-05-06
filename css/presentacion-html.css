@@ -270,6 +270,67 @@ h2 {
     border-radius: 40px;
 }
 
+/* Sección comentarios */
+
+.valoracion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+}
+
+.valoracion__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.valoracion__form * {
+    margin: 0;
+}
+
+.valoracion__subtitle {
+    font-weight: 400;
+}
+
+.valoracion__star-content i {
+    font-size: 1.5em;
+    color:#6D348A;
+}
+
+.valoracion__comment {
+    padding: 10px;
+    font-family: inherit;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.valoracion__comment:focus {
+    outline: 2px solid #6D348A;
+}
+
+.valoracion__submit {
+    align-self: flex-end;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color:#6D348A;
+    border: none;
+    border-radius: 5px;
+}
+
+.valoracion__submit:hover {
+    cursor: pointer;
+    background-color: rgba(109, 52, 137, 0.9);
+}
 /*Preguntas frecuentes */
 
 .contenedor4 {
