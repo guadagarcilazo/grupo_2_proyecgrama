@@ -37,11 +37,21 @@ body{
     text-decoration: none;
     font-weight: 700;
 }
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 600px;
+    visibility: hidden;
+}
 
 .encabezado__anotate {
     padding: 10px 30px;
     border-radius: 10px;
     background-color: #C73189;
+}
+.encabezado__anotate:hover{
+    background:linear-gradient(to bottom, #C73189 5%, #a52871c5 100%);
+	background-color:#C73189;
 }
 
 .encabezado__ingresa {
@@ -49,6 +59,10 @@ body{
     margin-right: 40px;
     border-radius: 8px;
     background-color: #68BFAB;
+}
+.encabezado__ingresa:hover {
+	background:linear-gradient(to bottom, #68BFAB 5%, #32917bba 100%);
+	background-color:#68BFAB;
 }
 
 /* Estilos del hero */
