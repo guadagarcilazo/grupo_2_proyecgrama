@@ -37,6 +37,11 @@ body{
     text-decoration: none;
     font-weight: 700;
 }
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 600px;
+}
 
 .encabezado__anotate {
     padding: 10px 30px;
