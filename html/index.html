@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/index.css">
+    
+    <!-- Fuentes Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="../css/index.css">
+    
     <title>Inicio - Proyecgrama</title>
 </head>
 <body>
@@ -48,27 +53,79 @@
             <h2 class="devjump">¿Qué es DevJump?</h2>
             <p class="parrafos">Conformada por 28 potenciales desarrolladores, somos parte de una tribu con talento. Compartimos los mismos ideales y principios. Buscamos desarrollar nuestro perfil profesional y lo hacemos de la mano de dos docentes calificados y una Service Owner que nos guía y nos acompañana en este proceso de aprendizaje.</p>
         </div>
-        <section>
+        <div>
             <a name="nosotros"></a>
             <div class="seccionNos">
                 <h2 class="devjump">Sobre nosotros</h2>
                 <p class="parrafos"> <b>Proyecgrama</b> es una plataforma de educación tecológica que impulsa nuevos talentos que buscan ser insertados dentro del mercado IT. El objetivo es acompañar su desarrollo profesional brindando las capacitaciones técnicas necesarias para abrirles paso al mundo de la programación.</p>
             </div>
-            <div class="imagenes">
-                <a class="imagenes__link" href="">
-                    <img id="imagenuno" src="../doc/img/imagenGuadalupe.png" alt="Imagen">
-                </a>
-                <a class="imagenes__link" href="">
-                    <img id="imagenuno" src="../doc/img/imagenGonzalo.png" alt="Imagen">
-                </a>
-                <a class="imagenes__link" href="">
-                    <img id="imagenuno" src="../doc/img/imagenNatali.png" alt="Imagen">
-                </a>
-                <a class="imagenes__link" href="">
-                    <img id="imagenuno" src="../doc/img/imagenLautaro.png" alt="Imagen">
-                </a>
+            <div class="cards">
+                <!-- Card de Guada -->
+                <div class="card">
+                    <div class="card__cont-img">
+                        <img class="card__img" src="../doc/img/imagenGuadalupe.png" alt="Guadalupe Garcilazo">
+                    </div>
+                    <div class="card__desc">
+                        <h3>Guadalupe Garcilazo</h3>
+                        <p>
+                            "Comencé mi rol como como líder del proyecto y hoy colaboro como desarrolladora. Estoy en este proyecto desde sus inicios y mis apoyos son combinar e integrar ideas con mis compañeros, motivando e incentivando a crecer y mejorar día a día."
+                        </p>
+                        <a class="card__linkedin" href="https://www.linkedin.com/in/guadalupe-garcilazo-994705167/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card de Gonza -->
+                <div class="card">
+                    <div class="card__cont-img">
+                        <img class="card__img" src="../doc/img/imagenGonzalo.png" alt="Guadalupe Garcilazo">
+                    </div>
+                    <div class="card__desc">
+                        <h3>Gonzalo Álvarez</h3>
+                        <p>
+                            "Desarrollador. Inicié en  el mundo de la programación mediante el equipo DevJump, ahí mismo, aprendí como crear una página web desde cero con el uso de HTML5 y darle "Vida" con CSS y JavaScript. Gracias a todo lo aprendido pude implementar ideas a Proyecgrama y llevarlas a cabo."
+                        </p>
+                        <a class="card__linkedin" href="https://www.linkedin.com/in/gonzalo-alvarez-44a257217/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card de Nati -->
+                <div class="card">
+                    <div class="card__cont-img">
+                        <img class="card__img" src="../doc/img/imagenNatali.png" alt="Guadalupe Garcilazo">
+                    </div>
+                    <div class="card__desc">
+                        <h3>Natali Lescano</h3>
+                        <p>
+                            "Como integrante del equipo, asumí mi rol de líder y de desarrolladora para este proyecto. Acordando pudimos hacer un gran cambio en el proyecto con combinación de nuevas ideas y cambios que son geniales. Me siento bien en ser parte del equipo 2, hay un gran apoyo mutuo."
+                        </p>
+                        <a class="card__linkedin" href="https://www.linkedin.com/in/natali-lescano/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Card de Lauti -->
+                <div class="card">
+                    <div class="card__cont-img">
+                        <img class="card__img" src="../doc/img/imagenLautaro.png" alt="Guadalupe Garcilazo">
+                    </div>
+                    <div class="card__desc">
+                        <h3>Lautaro Coria</h3>
+                        <p>
+                            "Traje un poco de experiencia para compartir e implementar y también adquirí nuevas de este equipo que me recibió de la manera más amena. Como desarrollador asumo el rol de la mejora constante, de la escucha, del compromiso, la ayuda y la confianza en el trabajo de mi equipo."
+                        </p>
+                        <a class="card__linkedin" href="https://www.linkedin.com/in/lautaronahuel/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </section>
+            <!-- FIN DEL CODIGO EDITADO POR LAUTARO -->
+        </div>
         <a name="lenguajes"></a>
         <div class="seccionleng">
             <h2 class="devjump">¿Qué lenguajes aprendemos?</h2>
