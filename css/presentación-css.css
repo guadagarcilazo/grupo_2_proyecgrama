@@ -146,8 +146,13 @@ body {
     width: 700px;
     height: 450px;
     border-radius: 25px;
-    background-image: url(../assets/img/presentacion-css/image\ \(3\).png);
+    /* background-image: url(../assets/img/presentacion-css/image\ \(3\).png); */
     background-size: cover;
+}
+
+#videos-css-class{
+    border-radius: 20px;
+    border: none;
 }
 
 .hero__title {

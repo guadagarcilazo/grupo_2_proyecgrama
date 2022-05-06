@@ -142,8 +142,13 @@ body {
     width: 700px;
     height: 450px;
     border-radius: 25px;
-    background-image: url(../assets/img/curso-html/portada-video.png);
+  /*   background-image: url(../assets/img/curso-html/portada-video.png); */
     background-size: cover;
+}
+
+#video-class-html5{
+    border-radius: 20px;
+    border: none;
 }
 
 .hero__title {
