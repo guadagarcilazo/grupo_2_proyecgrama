@@ -1,7 +1,5 @@
 let header = document.getElementById('header');
 
-console.dir(window);
-
 window.addEventListener('scroll', () => {
     if(window.scrollY > 775) {
         header.style.setProperty('background', 'url(../assets/img/presentacion-css/scrollcss.png)');
@@ -10,8 +8,4 @@ window.addEventListener('scroll', () => {
     } else {
         header.style.removeProperty('background');
     }
-});
-
-window.addEventListener('scroll', () => {
-    console.log(window.scrollY);
 });
