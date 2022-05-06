@@ -37,6 +37,12 @@ body {
     text-decoration: none;
 }
 
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 600px;
+}
+
 .encabezado__anotate {
     padding: 10px 30px;
     border-radius: 10px;
