@@ -1,4 +1,18 @@
-const items = document.querySelectorAll('li');
+let header = document.getElementById('header');
+
+window.addEventListener('scroll', () => {
+    if(window.scrollY > 775) {
+        header.style.setProperty('background', 'url(../assets/img/presentacion-html/scrollgtml.png)');
+    } else if (window.scrollY > 10) {
+        header.style.setProperty('background', 'rgba(0,0,0,0.3)');
+    } else {
+        header.style.removeProperty('background');
+    }
+});
+
+/* Preguntas desplegables */
+
+const items = document.querySelectorAll('.preg__item');
 const estados = document.querySelectorAll('.estado');
 
 // recorro el array para darle añadirle un evento a cada elemento
@@ -32,5 +46,3 @@ items.forEach( e => {
 
     });
 });
-
-

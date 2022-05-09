@@ -1,41 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
-body { 
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    background-color: #fbfbfb;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 40px 20px;
-    padding: 9vw 20vw;
-    overflow: hidden;
-}
-
-h1,
-h2,
-h3 {
-    margin: 0;
-}
-
-h3 {
-    font-size: 1em;
-    font-weight: 600;
-}
-
-ul {
+.menu-preg {
     margin: 0;
     padding: 0;
-    border-radius: 60px;
-    overflow: hidden;
     box-shadow: 0 0 8px rgba(0,0,0,0.2);
     background-color: #fff;
 }
 
-li {
+.preg__item {
     border-bottom: 1px solid rgb(216, 216, 216);
     list-style: none;
 }
@@ -53,37 +23,13 @@ li {
 
 .opciones {
     flex-direction: column;
-    gap: 10px;
     padding: 20px 15px;
     background-color: #f3f3f3;
 }
 
-i {
+.fa-angle-right {
     font-size: 1.2em;
-    color: #797979;
-}
-
-.estado {
-    width: max-content;
-}
-
-.estado,
-.estado-actual {
-    padding: 0 5px;
-    border-radius: 10px;
-}
-
-
-/* Pseudoclases */
-
-.tarea:hover {
-    background-color: #f3f3f3;
-    cursor: pointer;
-}
-
-.open .estado:hover {
-    cursor: pointer;
-    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    color: #fff;
 }
 
 /* Clases dinámicas añadidas con JavaScript */
@@ -114,4 +60,25 @@ i {
 
 .opciones-cerrado {
     display: none;
+}
+
+
+@keyframes girar90 {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(90deg); }
+}
+
+@keyframes girar0 {
+    from { transform: rotate(90deg); }
+    to { transform: rotate(0deg); }
+}
+
+@keyframes abrir {
+    from { height: 58.4px; }
+    to { height: 206.2px; }
+}
+
+@keyframes cerrar {
+    from { height: 120.2px; }
+    to { height: 72px; }
 }
