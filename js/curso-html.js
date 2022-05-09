@@ -9,3 +9,14 @@ window.addEventListener('scroll', () => {
         header.style.removeProperty('background');
     }
 });
+
+
+const enviarComentario = document.getElementById('enviar-comentario');
+const textArea = document.getElementById('textarea');
+
+enviarComentario.addEventListener('click', event => {
+    event.preventDefault();
+    swal("Formulario enviado", "Comentario enviado con éxito", "success");
+    textArea.value = '';
+});
+

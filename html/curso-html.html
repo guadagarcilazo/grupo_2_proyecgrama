@@ -8,14 +8,15 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- Hojas de estilos -->
     <link rel="stylesheet" href="../css/curso-html.css">
-     <!-- Icono -->
-     <link rel="shortcut icon" href="../doc/img/logo.png" type="image/x-icon">
+    <!-- Icono -->
+    <link rel="shortcut icon" href="../doc/img/logo.png" type="image/x-icon">
+    <!-- CDN Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     
     <title>Curso HTML - Proyecgrama</title>
 </head>
@@ -27,13 +28,17 @@
         <nav>
             <ul class="header__list">
                 <!-- Falta completar el atributo href a las etiquetas <a> -->
-                <li><a class="header__link" href="./index.html">DevJump</a></li>
-                <li><a class="header__link" href="./index.html">Nosotros</a></li>
-                <li><a class="header__link" href="#">Lenguajes</a></li>
+                <li><a class="header__link" href="index.html#devjump">DevJump</a></li>
+                <li><a class="header__link" href="index.html#nosotros">Nosotros</a></li>
+                <li><a class="header__link" href="index.html#lenguajes">Lenguajes</a></li>
                 <li>
-                    <a class="header__link" href="">
-                        <img class="avatar" src="../assets/img/curso-html/avatar.jpg" alt="Foto Perfil">
-                    </a>
+                    <div class="header__link">
+                        <img class="avatar" src="../assets/img/curso-html/avatar.png" alt="Foto Perfil">
+                    </div>
+                    <!-- Ventana del perfil -->
+                    <div class="avatar-ventana">
+                        <a href="presentacion-html.html">Cerrar sesión</a>
+                    </div>
                 </li>
             </ul>
         </nav>
@@ -66,7 +71,7 @@
             </div>
     
             <div class="hero__col2">
-                <iframe src="https://drive.google.com/file/d/1vAUDYMpeSYtXqk6b_FiSWwEEv97KO4DU/preview" width="640" height="480" allow="autoplay" style="border-radius: 20px; border:none"></iframe>
+                <iframe src="https://drive.google.com/file/d/1vAUDYMpeSYtXqk6b_FiSWwEEv97KO4DU/preview" width="640" height="400" allow="autoplay" style="border-radius: 20px; border:none"></iframe>
             </div>
         </div>
     </section>
@@ -74,32 +79,29 @@
     <main>
         <section class="info">
             <h2 class="subtitle">Acerca del curso</h2>
-            <p class="info__p">
-                En este curso aprenderás los fundamentos básicos y necesarios del lenguaje clave para la creación de páginas web. Al finalizar el curso podrás crear tus primeras páginas web y podrás darle el estilo que más te guste aprendiendo más sobre nuestro curso de <a href="#">CSS</a>.
-            </p>
-            <ul class="info__list">
-                <div class="info__row-1">
-                    <li class="info__item">
-                        <img class="info__icon" src="../assets/img/curso-html/icon-online-rosa.png" alt="Icon Clases Online">
-                        3 Clases semanales
-                    </li>
-                    <li class="info__item">
-                        <img class="info__icon" src="../assets/img/curso-html/icon-lista.png" alt="Icon Lista">
-                        Examen al finalizar el curso
-                    </li>
-                </div>
-    
-                <div class="info__row-2">
-                    <li class="info__item">
-                        <img class="info__icon" src="../assets/img/curso-html/icon-reloj.png" alt="Icon Reloj">
-                        Clases con duración de 2 horas
-                    </li>
-                    <l class="info__item">
-                        <img class="info__icon" src="../assets/img/curso-html/icon-menu.png" alt="Icon Menu">
-                        3 Módulos
-                    </l>
-                </div>
-            </ul>
+            <div> <!-- Hacer esto flex -->
+                <p class="info__p">
+                    En este curso aprenderás los fundamentos básicos y necesarios del lenguaje clave para la creación de páginas web. Al finalizar el curso podrás crear tus primeras páginas web y podrás darle el estilo que más te guste aprendiendo más sobre nuestro curso de <a href="#">CSS</a>.
+                </p>
+                <ul class="info__list">
+                        <li class="info__item">
+                            <img class="info__icon" src="../assets/img/curso-html/icon-online-rosa.png" alt="Icon Clases Online">
+                            3 Clases semanales
+                        </li>
+                        <li class="info__item">
+                            <img class="info__icon" src="../assets/img/curso-html/icon-lista.png" alt="Icon Lista">
+                            Examen al finalizar el curso
+                        </li>
+                        <li class="info__item">
+                            <img class="info__icon" src="../assets/img/curso-html/icon-reloj.png" alt="Icon Reloj">
+                            Clases con duración de 2 horas
+                        </li>
+                        <li class="info__item">
+                            <img class="info__icon" src="../assets/img/curso-html/icon-menu.png" alt="Icon Menu">
+                            3 Módulos
+                        </li>
+                </ul>
+            </>
         </section>
 
         <section class="contenido">
@@ -107,81 +109,63 @@
             <section class="contenido__modulo">
                 <h3 class="contenido__subtitle">Módulo 1</h3>
                 <hr>
-                <a href="https://drive.google.com/drive/folders/1WHPBzKUMdjCQPLmOJ_gHD9d24RcwxZmg" target="_blank">
-                    <article class="contenido__article">
-                        <div class="contenido__col1 contenido__video1">
-                            <img class="contenido__btn-play" src="../assets/img/curso-html/btn-play.png" alt="Boton Play">
-                        </div>
-                        <div class="contenido__col2">
-                            <h4 class="contenido__classtitle">Clase 1</h4>
-                            <p>
-                                Este tutorial analizará la funcionalidad de los formularios, enfocándose en un pequeño conjunto de controles básicos que los autores de sitios web pueden utilizar para recolectar información ingresada por el usuario.
-                            </p>
-                        </div>
-                    </article>
-                </a>
-                <a href="https://drive.google.com/drive/folders/1WHPBzKUMdjCQPLmOJ_gHD9d24RcwxZmg" target="_blank">
-                    <article class="contenido__article">
-                        <div class="contenido__col1 contenido__video2">
-                            <img class="contenido__btn-play" src="../assets/img/curso-html/btn-play.png" alt="Boton Play">
-                        </div>
-                        <div class="contenido__col2">
-                            <h4 class="contenido__classtitle">Clase 2</h4>
-                            <p>
-                                Los formularios en HTML sirven al propósito de recolectar información proporcionada por los visitantes del sitio, la cual es luego enviada nuevamente al servidor. Esta clase contendrá un extensivo repaso con variedad de ejemplos.
-                            </p>
-                        </div>
-                    </article>
-                </a>
+                <article class="contenido__article">
+                    <iframe class="contenido__col1" src="https://drive.google.com/file/d/1vAUDYMpeSYtXqk6b_FiSWwEEv97KO4DU/preview" allow="autoplay"></iframe>
+                    <div class="contenido__col2">
+                        <h4 class="contenido__classtitle">Clase 1</h4>
+                        <p>
+                            Este tutorial analizará la funcionalidad de los formularios, enfocándose en un pequeño conjunto de controles básicos que los autores de sitios web pueden utilizar para recolectar información ingresada por el usuario.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="contenido__article">
+                    <iframe class="contenido__col1" src="https://drive.google.com/file/d/151zc0U7SHFxkd3MZ-2jYDf4emhH3r8F3/preview" allow="autoplay"></iframe>
+                    <div class="contenido__col2">
+                        <h4 class="contenido__classtitle">Clase 2</h4>
+                        <p>
+                            Los formularios en HTML sirven al propósito de recolectar información proporcionada por los visitantes del sitio, la cual es luego enviada nuevamente al servidor. Esta clase contendrá un extensivo repaso con variedad de ejemplos.
+                        </p>
+                    </div>
+                </article>
             </section>
 
             <section class="contenido__modulo">
                 <h3 class="contenido__subtitle">Módulo 2</h3>
                 <hr>
-                <a href="https://drive.google.com/drive/folders/1WHPBzKUMdjCQPLmOJ_gHD9d24RcwxZmg" target="_blank">
-                    <article class="contenido__article">
-                        <div class="contenido__col1 contenido__video1">
-                            <img class="contenido__btn-play" src="../assets/img/curso-html/btn-play.png" alt="Boton Play">
-                        </div>
-                        <div class="contenido__col2">
-                            <h4 class="contenido__classtitle">Clase 3</h4>
-                            <p>
-                                Tablas, enlaces, párrafos, títulos, subtítulos, favicones e íconos son algunos de los conceptos que se trabajan a lo largo de esta ¡TREMENDA clase! Aprenderás a crearlas, utilizarlas y a cómo sacarles el mejor provecho.
-                            </p>
-                        </div>
-                    </article>
-                </a>
-                <a href="https://drive.google.com/drive/folders/1WHPBzKUMdjCQPLmOJ_gHD9d24RcwxZmg" target="_blank">
-                    <article class="contenido__article">
-                        <div class="contenido__col1 contenido__video2">
-                            <img class="contenido__btn-play" src="../assets/img/curso-html/btn-play.png" alt="Boton Play">
-                        </div>
-                        <div class="contenido__col2">
-                            <h4 class="contenido__classtitle">Clase 4</h4>
-                            <p>
-                                Trabajemos un poco todo lo que aprendimos hasta el momento... Pongamos sobre la mesa todas las piezas y armemos nuestra primera página web sólo con HTML funcional! Todo lo que hemos aprendido empieza a cobrar vida de a poco.
-                            </p>
-                        </div>
-                    </article>
-                </a>
+                <article class="contenido__article">
+                    <iframe class="contenido__col1" src="https://drive.google.com/file/d/1J6N3oxsShZ6BcyR-ZUSPV9x00G_MxbbG/preview" allow="autoplay"></iframe>
+                    <div class="contenido__col2">
+                        <h4 class="contenido__classtitle">Clase 3</h4>
+                        <p>
+                            Tablas, enlaces, párrafos, títulos, subtítulos, favicones e íconos son algunos de los conceptos que se trabajan a lo largo de esta ¡TREMENDA clase! Aprenderás a crearlas, utilizarlas y a cómo sacarles el mejor provecho.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="contenido__article">
+                    <iframe class="contenido__col1" src="https://drive.google.com/file/d/1HIp0VY6n7d6DpTouSR4VHtbpT1474fPz/preview" allow="autoplay"></iframe>
+                    <div class="contenido__col2">
+                        <h4 class="contenido__classtitle">Clase 4</h4>
+                        <p>
+                            Trabajemos un poco todo lo que aprendimos hasta el momento... Pongamos sobre la mesa todas las piezas y armemos nuestra primera página web sólo con HTML funcional! Todo lo que hemos aprendido empieza a cobrar vida de a poco.
+                        </p>
+                    </div>
+                </article>
             </section>
 
             <section class="contenido__modulo">
                 <h3 class="contenido__subtitle">Módulo 3</h3>
                 <hr>
-                <a href="https://drive.google.com/drive/folders/1WHPBzKUMdjCQPLmOJ_gHD9d24RcwxZmg" target="_blank">
-                    <article class="contenido__article">
-                        <div class="contenido__col1 contenido__video1">
-                            <img class="contenido__btn-play" src="../assets/img/curso-html/btn-play.png" alt="Boton Play">
-                        </div>
-                        <div class="contenido__col2">
-                            <h4 class="contenido__classtitle">Clase 5</h4>
-                            <p>
-                                La accesibilidad hace que tus sitios web puedan ser utilizados por el mayor número de personas posible. Tradicionalmente, se ideó para las personas con discapacidad, pero la creación de sitios accesibles también beneficia a otros grupos. ¡Hablemos sobre esto!
-                            </p>
-                        </div>
-                    </article>
-                </a>
+                <article class="contenido__article">
+                    <iframe class="contenido__col1" src="https://drive.google.com/file/d/1VgxllZNSNCA8t36qgKzE_7nAKyfHDhzm/preview" allow="autoplay"></iframe>
+                    <div class="contenido__col2">
+                        <h4 class="contenido__classtitle">Clase 5</h4>
+                        <p>
+                            La accesibilidad hace que tus sitios web puedan ser utilizados por el mayor número de personas posible. Tradicionalmente, se ideó para las personas con discapacidad, pero la creación de sitios accesibles también beneficia a otros grupos. ¡Hablemos sobre esto!
+                        </p>
+                    </div>
+                </article>
             </section>
         </section>
 
@@ -190,15 +174,30 @@
             <form class="valoracion__form">
                 <h4 class="valoracion__subtitle">Valoración:</h4>
                 <div class="valoracion__star-content">
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                    <!-- Estrella 1 -->
+                    <button class="star">
+                        <i class="fas fa-star"></i>
+                    </button>
+                    <!-- Estrella 2 -->
+                    <button class="star">
+                        <i class="fas fa-star"></i>
+                    </button>
+                    <!-- Estrella 3 -->
+                    <button class="star">
+                        <i class="fas fa-star"></i>
+                    </button>
+                    <!-- Estrella 4 -->
+                    <button class="star">
+                        <i class="fas fa-star"></i>
+                    </button>
+                    <!-- Estrella 5 -->
+                    <button class="star">
+                        <i class="fas fa-star"></i>
+                    </button>
                 </div>
                 <h4 class="valoracion__subtitle">Comentario:</h4>
-                <textarea class="valoracion__comment" cols="55" rows="10" placeholder="Dejanos tu opinión..."></textarea>
-                <input class="valoracion__submit" type="submit" value="Enviar">
+                <textarea class="valoracion__comment" id="textarea" cols="55" rows="10" placeholder="Dejanos tu opinión..."></textarea>
+                <input class="valoracion__submit" id="enviar-comentario" type="submit" value="Enviar">
             </form>
         </section>
 
@@ -268,17 +267,17 @@
                 <h3 class="footer__title">Redes</h3>
                 <div>
                     <a href="https://www.facebook.com/arbustait/" target="_blank">
-                        <img src="../recursos/footer/img/facebook-app-symbol.png" alt="facebook"></a>
+                        <img class="footer__img" src="../recursos/footer/img/facebook-app-symbol.png" alt="facebook"></a>
                     <a href="https://www.instagram.com/arbustait/" target="_blank">
-                        <img src="../recursos/footer/img/instagram.png" alt="instagram"></a>
+                        <img class="footer__img" src="../recursos/footer/img/instagram.png" alt="instagram"></a>
                     <a href="https://twitter.com/arbustait?lang=es" target="_blank">
-                        <img src="../recursos/footer/img/twitter.png" alt="twitter"></a>
+                        <img class="footer__img" src="../recursos/footer/img/twitter.png" alt="twitter"></a>
                     <a href="https://www.youtube.com/channel/UConMZKNNPE9Qbsh0HZS5WFQ" target="_blank">
-                        <img src="../recursos/footer/img/youtube.png" alt="youtube"></a>
+                        <img class="footer__img" src="../recursos/footer/img/youtube.png" alt="youtube"></a>
                     <a href="https://github.com/guadagarcilazo/grupo_2_proyecgrama" target="_blank">
-                        <img src="../recursos/footer/img/github.png" alt="github"></a>
+                        <img class="footer__img" src="../recursos/footer/img/github.png" alt="github"></a>
                     <a href="https://discord.com/channels/939255988261879861/939255988710678558" target="_blank">
-                        <img src="../recursos/footer/img/discord.png" alt="discord"></a>
+                        <img class="footer__img" src="../recursos/footer/img/discord.png" alt="discord"></a>
                 </div>
             </div>
         </div>
