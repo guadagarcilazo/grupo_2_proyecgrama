@@ -12,6 +12,9 @@
      <!-- Icono -->
      <link rel="shortcut icon" href="../doc/img/logo.png" type="image/x-icon">
 
+      <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
     <title>CSS - Proyecgrama</title>
 
 </head>
@@ -78,25 +81,32 @@
 
     <!-- La parte de la sección Acerca del Lenguaje -->
     <section>
-        <div class="contenedor2">
-            <div class="caja2">
-                <div class="titulo2">
-                    <h3 class="title2">Acerca del curso</h3>
-                </div>
-                <div class="descripcion">
-                    <p>¿Sabías que se puede diseñar solo con código? ¿Sin programas de diseño como Photoshop o Illustrator? CSS es un lenguaje creado para diseñar la web, cuando ves una web hermosa, con animaciones y efectos, estos se crearon con CSS. Este curso te enseñará desde cero a escribir código CSS con buenas prácticas e iniciar tu carrera como diseñador web. </p>
-                </div>
-            </div>
-
-            <div class="contenido2">
-                <ul class="lista2">
-                <li class="list"><img src="../assets/img/presentacion-html/aprender-en-linea.png" alt="clasessemanales">  3 Clases semanales</li>
-                <li class="list"><img src="../assets/img/presentacion-html/reloj.png" alt="">  Clases con duración de 2 horas</li>
-                <li class="list"><img src="../assets/img/presentacion-html/menu.png" alt="modulos">6 Módulos</li>
-                <li class="list"><img src="../assets/img/presentacion-html/lista.png" alt="">  Examen al finalizar el curso</li>
+        <section class="info">
+            <h2 class="subtitle">Acerca del curso</h2>
+            <div> <!-- Hacer esto flex -->
+                <p class="info__p">
+                    En este curso aprenderás los fundamentos básicos y necesarios del lenguaje clave para la creación de páginas web. Al finalizar el curso podrás crear tus primeras páginas web y podrás darle el estilo que más te guste aprendiendo más sobre nuestro curso de <a href="#">CSS</a>.
+                </p>
+                <ul class="info__list">
+                        <li class="info__item">
+                            <img class="info__icon" src="../assets/img/curso-html/icon-online-rosa.png" alt="Icon Clases Online">
+                            3 Clases semanales
+                        </li>
+                        <li class="info__item">
+                            <img class="info__icon" src="../assets/img/curso-html/icon-lista.png" alt="Icon Lista">
+                            Examen al finalizar el curso
+                        </li>
+                        <li class="info__item">
+                            <img class="info__icon" src="../assets/img/curso-html/icon-reloj.png" alt="Icon Reloj">
+                            Clases con duración de 2 horas
+                        </li>
+                        <li class="info__item">
+                            <img class="info__icon" src="../assets/img/curso-html/icon-menu.png" alt="Icon Menu">
+                            3 Módulos
+                        </li>
                 </ul>
             </div>
-        </div>
+        </section>
     </section>
   
     <section>
@@ -110,49 +120,61 @@
         </div>
     </section>
 
-    <section class="valoracion">
-        <h2 class="subtitle">Dejanos tu comentario</h2>
-        <form class="valoracion__form">
-            <h4 class="valoracion__subtitle">Valoración:</h4>
-            <div class="valoracion__star-content">
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-            </div>
-            <h4 class="valoracion__subtitle">Comentario:</h4>
-            <textarea class="valoracion__comment" cols="55" rows="10" placeholder="Dejanos tu opinión..."></textarea>
-            <input class="valoracion__submit" type="submit" value="Enviar">
-        </form>
-    </section>
-
     <section>
-           <div class="contenedor4">
-               <div class="title4">
-                   <h2>Preguntas frecuentes</h2>
-               </div>
-               <div class="preguntas">
-                   <div class="pregunta">¿Necesito saber algo de programación antes de iniciar el curso?
-                </div>
-                   <div class="pregunta">¿Las clases serán grabadas?</div>
-                   <div class="pregunta">¿Qué editor de texto utilizaremos?</div>
-               </div>
-           </div>
-
-    </section>
-
-    <section>
-            <div class="contenedor5">
-                <div class="title5">
-                 <h2>Sumate a esta gran experiencia</h2>
-                </div>
-                <div class="myButton">
-                    <a href="./anotate.html">Anotate</a>
-                </div>
+        <div class="contenedor4">
+            <div class="title4">
+                <h2>Preguntas frecuentes</h2>
             </div>
+            <div class="cont-preg">
+                <ul class="menu-preg">
+                    <li class="preg__item"> <!-- class open -->
+                        <div class="pregunta">
+                            <div>
+                                <p class="preg">¿Necesito saber algo de programación antes de iniciar el curso?</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="opciones opciones-cerrado">
+                            <i class="fa-solid fa-caret-right"></i>
+                            <span class="estado">No es necesario tener conocimientos previos, puedes comenzar cuando quieras!</span>
+                        </div>
+                    </li>
+            
+                    <li class="preg__item">
+                        <div class="pregunta">
+                            <div>
+                                <p class="preg">¿Las clases serán grabadas?</p> 
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="opciones opciones-cerrado">
+                            <i class="fa-solid fa-caret-right"></i>
+                            <span class="estado">Las clases son asincrónicas y está la posibilidad de quedar grabada las clases.</span>
+                        </div>
+                    </li>
+            
+                    <li class="preg__item">
+                        <div class="pregunta">
+                            <div>
+                                <p class="preg">¿Qué editor de texto utilizaremos?</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="opciones opciones-cerrado">
+                            <i class="fa-solid fa-caret-right"></i>
+                            <span class="estado">En esta ocasión usaremos Visual Code </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
-
 
 
     <footer class="footer">
