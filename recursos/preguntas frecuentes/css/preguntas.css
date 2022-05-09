@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body { 
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fbfbfb;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 20px;
+    padding: 9vw 20vw;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    border-radius: 60px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    background-color: #fff;
+}
+
+li {
+    border-bottom: 1px solid rgb(216, 216, 216);
+    list-style: none;
+}
+
+.pregunta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px 10px 15px;
+    background: linear-gradient(90deg, rgba(199,49,137,1) 0%, rgba(90,26,184,1) 65%, rgba(42,28,86,1) 100%);
+    border-radius: 10px;
+    height: 50px;
+    border: 1px solid rgb(217, 210, 210);
+}
+
+.opciones {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 15px;
+    background-color: #f3f3f3;
+}
+
+i {
+    font-size: 1.2em;
+    color: #797979;
+}
+
+.estado {
+    width: max-content;
+}
+
+.estado,
+.estado-actual {
+    padding: 0 5px;
+    border-radius: 10px;
+}
+
+
+/* Pseudoclases */
+
+.tarea:hover {
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+
+.open .estado:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+/* Clases dinámicas añadidas con JavaScript */
+
+
+.closed {
+    animation-name: cerrar;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.rotate90 {
+    animation-name: girar90;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.rotate0 {
+    animation-name: girar0;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.opciones-abierto {
+    display: flex;
+
+}
+
+.opciones-cerrado {
+    display: none;
+}
