@@ -210,6 +210,11 @@ a {
     font-size: 24px;
 }
 
+.info__p a {
+    text-decoration: underline;
+    color: #6D348A;
+}
+
 .info__list {
     display: flex;
     flex-direction: column;

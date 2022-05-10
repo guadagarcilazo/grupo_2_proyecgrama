@@ -6,15 +6,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../css/presentacion-html.css" type="text/css">
-
     <!-- Icono -->
     <link rel="shortcut icon" href="../doc/img/logo.png" type="image/x-icon">
     <!-- CDN Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="../css/presentacion-html.css" type="text/css">
     <title>HTML - Proyecgrama</title>
-
 </head>
 
 <body>
@@ -72,8 +74,7 @@
             </div>
     
             <div class="hero__col2">
-                <iframe src="https://drive.google.com/file/d/1vAUDYMpeSYtXqk6b_FiSWwEEv97KO4DU/preview" width="740" height="540" allow="autoplay" id="video-class-html5"></iframe>
-                <!-- <img src="../assets/img/curso-html/btn-play.png" alt="Boton Play"> -->
+                <iframe src="https://drive.google.com/file/d/1vAUDYMpeSYtXqk6b_FiSWwEEv97KO4DU/preview" width="640" height="400" allow="autoplay" id="video-class-html5"></iframe>
             </div>
         </div>
     </section>
@@ -83,7 +84,7 @@
         <h2 class="subtitle">Acerca del curso</h2>
         <div> <!-- Hacer esto flex -->
             <p class="info__p">
-                En este curso aprenderás los fundamentos básicos y necesarios del lenguaje clave para la creación de páginas web. Al finalizar el curso podrás crear tus primeras páginas web y podrás darle el estilo que más te guste aprendiendo más sobre nuestro curso de <a href="#">CSS</a>.
+                En este curso aprenderás los fundamentos básicos y necesarios del lenguaje clave para la creación de páginas web. Al finalizar el curso podrás crear tus primeras páginas web y podrás darle el estilo que más te guste aprendiendo más sobre nuestro curso de <a href="presentación-css.html">CSS</a>.
             </p>
             <ul class="info__list">
                     <li class="info__item">
@@ -109,8 +110,8 @@
     <section>
         <div class="contenedor3">
            
-            <div class="title3" id="slide1">
-                <h2>Ejemplos de páginas con HTML 5</h2>
+            <div class="title3">
+                <h2>Páginas realizadas con HTML 5</h2>
             </div>
             <div id="proyecgrama-slider">
   
@@ -144,70 +145,129 @@
 
     <section>
         <div class="contenedor4">
-            <div class="title4">
-                <h2>Preguntas frecuentes</h2>
-            </div>
-            <div class="cont-preg">
-                <ul class="menu-preg">
-                    <li class="preg__item"> <!-- class open -->
-                        <div class="pregunta">
-                            <div>
-                                <p class="preg">¿Necesito saber algo de programación antes de iniciar el curso?</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-angle-right"></i>
-                            </div>
+            <h2>Preguntas frecuentes</h2>
+            <ul class="menu-preg">
+                <li class="preg__item"> <!-- class open -->
+                    <div class="pregunta">
+                        <div>
+                            <p class="preg">¿Necesito saber algo de programación antes de iniciar el curso?</p>
                         </div>
-                        <div class="opciones opciones-cerrado">
-                            <i class="fa-solid fa-caret-right"></i>
-                            <span class="estado">No es necesario tener conocimientos previos, puedes comenzar cuando quieras!</span>
+                        <div>
+                            <i class="fa-solid fa-angle-right"></i>
                         </div>
-                    </li>
-            
-                    <li class="preg__item">
-                        <div class="pregunta">
-                            <div>
-                                <p class="preg">¿Las clases serán grabadas?</p> 
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-angle-right"></i>
-                            </div>
+                    </div>
+                    <div class="opciones opciones-cerrado">
+                        <i class="fa-solid fa-caret-right"></i>
+                        <span class="estado">No es necesario tener conocimientos previos, puedes comenzar cuando quieras!</span>
+                    </div>
+                </li>
+        
+                <li class="preg__item">
+                    <div class="pregunta">
+                        <div>
+                            <p class="preg">¿Las clases serán grabadas?</p> 
                         </div>
-                        <div class="opciones opciones-cerrado">
-                            <i class="fa-solid fa-caret-right"></i>
-                            <span class="estado">Las clases son asincrónicas y está la posibilidad de quedar grabada las clases.</span>
+                        <div>
+                            <i class="fa-solid fa-angle-right"></i>
                         </div>
-                    </li>
-            
-                    <li class="preg__item">
-                        <div class="pregunta">
-                            <div>
-                                <p class="preg">¿Qué editor de texto utilizaremos?</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-angle-right"></i>
-                            </div>
+                    </div>
+                    <div class="opciones opciones-cerrado">
+                        <i class="fa-solid fa-caret-right"></i>
+                        <span class="estado">Las clases son asincrónicas y está la posibilidad de quedar grabada las clases.</span>
+                    </div>
+                </li>
+        
+                <li class="preg__item">
+                    <div class="pregunta">
+                        <div>
+                            <p class="preg">¿Qué editor de texto utilizaremos?</p>
                         </div>
-                        <div class="opciones opciones-cerrado">
-                            <i class="fa-solid fa-caret-right"></i>
-                            <span class="estado">En esta ocasión usaremos Visual Code </span>
+                        <div>
+                            <i class="fa-solid fa-angle-right"></i>
                         </div>
-                    </li>
-                </ul>
-            </div>
+                    </div>
+                    <div class="opciones opciones-cerrado">
+                        <i class="fa-solid fa-caret-right"></i>
+                        <span class="estado">En esta ocasión usaremos Visual Code </span>
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 
 
-    <section>
-            <div class="contenedor5">
-                <div class="title5">
-                    <h2>Sumate a esta gran experiencia</h2>
+    <section class="contenedor5">
+        <h2>Sumate a esta gran experiencia</h2>
+
+        <div>
+            <article class="post">
+                <header>
+                    <img src="../assets/img/presentacion-html/avatar-1.jpg" alt="Imagen de Perfil">
+                    <div>
+                        <h3>
+                            <a href="">Fer del Valle</a>
+                        </h3>
+                        <p class="date">Hace 17 minutos</p>
+                    </div>
+                </header>
+                <div>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
                 </div>
-                <div class="myButton">
-                    <a href="./anotate.html">Anotate</a>
+                <p>
+                    Lo que amé de este curso es todo lo que podemos hacer con <span class="hashtag">#HTML</span> con sus distintas etiquetas, atributos, elementos, entre otros. Cabe resaltar que me cayo excelente el profesor por su forma de explicar. Bueno, terminé de crear una parte de mi pagina web con HTML, ahora aprendere <span class="hashtag">#CSS</span>, saludos.
+                </p>
+            </article>
+        
+            <article class="post">
+                <header>
+                    <img src="../assets/img/presentacion-html/avatar-2.jpg" alt="Imagen de Perfil">
+                    <div>
+                        <h3>
+                            <a href="">Jose Beach</a>
+                        </h3>
+                        <p class="date">Hace 22 minutos</p>
+                    </div>
+                </header>
+                <div>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
                 </div>
-            </div>
+                <p>
+                    Como siempre el mejor profesor, explica muy bien y capta tu atención
+                </p>
+            </article>
+        
+            <article class="post">
+                <header>
+                    <img src="../assets/img/presentacion-html/avatar-3.jpg" alt="Imagen de Perfil">
+                    <div>
+                        <h3>
+                            <a href="">Matu Brennan</a>
+                        </h3>
+                        <p class="date">Hace 24 minutos</p>
+                    </div>
+                </header>
+                <div>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                    <i class="fa-solid fa-star star-yellow"></i>
+                </div>
+                <p>
+                    Muy buena explicación, quede encantado!
+                </p>
+            </article>
+        </div>
+
+        <a class="myButton" href="./anotate.html">Anotate</a>
     </section>
 
 
